@@ -1,19 +1,19 @@
 {
-  "version": "2.6.1",
-  "versionCode": 61,
+  "version": "2.6.2",
+  "versionCode": 62,
   "channel": "standard",
-  "notes": "【更新】\n• OTA 文案更改",
-  "publishedAt": "2026-08-11T21:27:41+08:00",
+  "notes": "【优化】\n• 修改了更新提示页的 Logo\n• 优化了关于页面的 Logo 显示效果",
+  "publishedAt": "2026-08-11T22:06:18+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.6.1-arm64-v8a-standard-release.apk",
-      "size": 17891391,
-      "sha256": "362935048e287c34b80a3a7e5aae1590469a3bd5214619661563e624f8ffb0d4"
+      "file": "apks/VComic_v2.6.2-arm64-v8a-standard-release.apk",
+      "size": 17891639,
+      "sha256": "8ff4d36d318c6587fafa3dbd5e2b0c20ebb31a4994ab0478ece976ad5524e487"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.6.1-x86_64-standard-release.apk",
-      "size": 18378913,
-      "sha256": "a2a3afc4df46c08907c7ecf6a83887711b524675a09d5b1fb342245fcd57ab65"
+      "file": "apks/VComic_v2.6.2-x86_64-standard-release.apk",
+      "size": 18379169,
+      "sha256": "148840456c20ad36afe84d2d22da5160d81764bc890512838a012fe3f2979178"
     }
   }
 }
