@@ -1,0 +1,19 @@
+{
+  "version": "2.5.2",
+  "versionCode": 52,
+  "channel": "standard",
+  "notes": "OTA 功能测试发布\n- 启动时检查更新\n- ModalBottomSheet 展示更新说明\n- 分 ABI APK 下载安装",
+  "publishedAt": "2026-08-11T20:50:15+08:00",
+  "apks": {
+    "arm64-v8a": {
+      "file": "apks/VComic_v2.5.2-arm64-v8a-standard-release.apk",
+      "size": 17891399,
+      "sha256": "184f4e7b7dda542e5d78f0071f00db0c5b81a123ede39e2b77142291a69eaa0d"
+    },
+    "x86_64": {
+      "file": "apks/VComic_v2.5.2-x86_64-standard-release.apk",
+      "size": 18378925,
+      "sha256": "84a25840013eeb5c54c9380242f90d47b38d4e6e42acb285a7dbf4b874e927ed"
+    }
+  }
+}
