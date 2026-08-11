@@ -3,17 +3,17 @@
   "versionCode": 62,
   "channel": "standard",
   "notes": "【优化】\n• 修改了更新提示页的 Logo\n• 优化了关于页面的 Logo 显示效果",
-  "publishedAt": "2026-08-11T22:06:18+08:00",
+  "publishedAt": "2026-08-11T22:34:07+08:00",
   "apks": {
     "arm64-v8a": {
       "file": "apks/VComic_v2.6.2-arm64-v8a-standard-release.apk",
-      "size": 17891639,
-      "sha256": "8ff4d36d318c6587fafa3dbd5e2b0c20ebb31a4994ab0478ece976ad5524e487"
+      "size": 17945958,
+      "sha256": "a2af4a3680b252775501b5f8f4e983a66301ab5611497817ef4452972cc27658"
     },
     "x86_64": {
       "file": "apks/VComic_v2.6.2-x86_64-standard-release.apk",
-      "size": 18379169,
-      "sha256": "148840456c20ad36afe84d2d22da5160d81764bc890512838a012fe3f2979178"
+      "size": 18433364,
+      "sha256": "69055a651ae8439b059232f8dadd52deb10b953f0a4d87703fa305f639b91580"
     }
   }
 }
