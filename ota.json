@@ -1,19 +1,19 @@
 {
-  "version": "2.6.2",
-  "versionCode": 62,
+  "version": "2.7.0",
+  "versionCode": 63,
   "channel": "standard",
-  "notes": "【优化】\n• 修改了更新提示页的 Logo\n• 优化了关于页面的 Logo 显示效果",
-  "publishedAt": "2026-08-11T22:34:07+08:00",
+  "notes": "【新功能】\n• 搜索结果页与聚合搜索页支持设置：可切换搜索源、排序选项，以及开启/关闭聚合搜索\n• 优化漫画详情页展示效果",
+  "publishedAt": "2026-08-11T23:55:08+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.6.2-arm64-v8a-standard-release.apk",
-      "size": 17945958,
-      "sha256": "a2af4a3680b252775501b5f8f4e983a66301ab5611497817ef4452972cc27658"
+      "file": "apks/VComic_v2.7.0-arm64-v8a-standard-release.apk",
+      "size": 17920315,
+      "sha256": "0360258079a464eaa53a04f9df14932e00b6a9d6f47861bd72630a721f5aa17d"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.6.2-x86_64-standard-release.apk",
-      "size": 18433364,
-      "sha256": "69055a651ae8439b059232f8dadd52deb10b953f0a4d87703fa305f639b91580"
+      "file": "apks/VComic_v2.7.0-x86_64-standard-release.apk",
+      "size": 18407841,
+      "sha256": "f745c69964ecaee0f2950d9a2bb5bb16fb762bdff8f89e76da84973218a82f8a"
     }
   }
 }
