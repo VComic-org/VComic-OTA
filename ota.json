@@ -1,19 +1,19 @@
 {
-  "version": "2.5.2",
-  "versionCode": 52,
+  "version": "2.6.0",
+  "versionCode": 60,
   "channel": "standard",
-  "notes": "OTA 功能测试发布\n- 启动时检查更新\n- ModalBottomSheet 展示更新说明\n- 分 ABI APK 下载安装\n- debug 签名便于模拟器安装验证",
-  "publishedAt": "2026-08-11T20:56:35+08:00",
+  "notes": "【新功能】\n• 应用内自动更新（OTA）\n\n【说明】\n• 安装时如系统提示「未知来源」，请允许本应用安装更新",
+  "publishedAt": "2026-08-11T21:10:57+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.5.2-arm64-v8a-standard-release.apk",
-      "size": 17945958,
-      "sha256": "8a63d0679f233e5e28810ba3762bebe0ccfffcd38e83f3f5357f97349adb7e09"
+      "file": "apks/VComic_v2.6.0-arm64-v8a-standard-release.apk",
+      "size": 17891399,
+      "sha256": "f2228ff44a60cf2b2029d1235ee83ab7d6c7d73e8d7e579ced43f515cd856624"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.5.2-x86_64-standard-release.apk",
-      "size": 18433364,
-      "sha256": "d5f3dde91feb5838cee18440f74d046f376c52951bb2e6ede9cb17e5d1a5f271"
+      "file": "apks/VComic_v2.6.0-x86_64-standard-release.apk",
+      "size": 18378925,
+      "sha256": "a55301739106ccc8807b0e05b8ad97fa6716f4f2f5488da135412bd58b9a1b55"
     }
   }
 }
