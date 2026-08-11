@@ -1,19 +1,19 @@
 {
-  "version": "2.6.0",
-  "versionCode": 60,
+  "version": "2.6.1",
+  "versionCode": 61,
   "channel": "standard",
-  "notes": "【新功能】\n• 应用内自动更新（OTA）\n\n【说明】\n• 安装时如系统提示「未知来源」，请允许本应用安装更新",
-  "publishedAt": "2026-08-11T21:10:57+08:00",
+  "notes": "【更新】\n• OTA 文案更改",
+  "publishedAt": "2026-08-11T21:27:41+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.6.0-arm64-v8a-standard-release.apk",
-      "size": 17891399,
-      "sha256": "f2228ff44a60cf2b2029d1235ee83ab7d6c7d73e8d7e579ced43f515cd856624"
+      "file": "apks/VComic_v2.6.1-arm64-v8a-standard-release.apk",
+      "size": 17891391,
+      "sha256": "362935048e287c34b80a3a7e5aae1590469a3bd5214619661563e624f8ffb0d4"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.6.0-x86_64-standard-release.apk",
-      "size": 18378925,
-      "sha256": "a55301739106ccc8807b0e05b8ad97fa6716f4f2f5488da135412bd58b9a1b55"
+      "file": "apks/VComic_v2.6.1-x86_64-standard-release.apk",
+      "size": 18378913,
+      "sha256": "a2a3afc4df46c08907c7ecf6a83887711b524675a09d5b1fb342245fcd57ab65"
     }
   }
 }
