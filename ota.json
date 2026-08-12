@@ -2,18 +2,18 @@
   "version": "2.7.1",
   "versionCode": 64,
   "channel": "standard",
-  "notes": "【优化】\n• 开启启动检查后，每次冷启动都会检查更新\n• 更新下载支持后台进行，关闭窗口后仍会继续下载，完成后自动再弹出\n• 更新操作按钮改为纵向排列，并支持跳过当前版本",
-  "publishedAt": "2026-08-12T09:52:03+08:00",
+  "notes": "【测试】withXr 双清单 OTA 渠道验证（test-withxr-ota 分支，非正式发布）",
+  "publishedAt": "2026-08-12T20:32:12+08:00",
   "apks": {
     "arm64-v8a": {
       "file": "apks/VComic_v2.7.1-arm64-v8a-standard-release.apk",
-      "size": 17936731,
-      "sha256": "1e9aa6c28cc31c166f9ec07d18af6f0367acaca1501699920e1d59aefa298570"
+      "size": 8339012,
+      "sha256": "0b98282b59849ee4822e90d6f278f59935894bedb4b79e98bb197aaaad7a2b8f"
     },
     "x86_64": {
       "file": "apks/VComic_v2.7.1-x86_64-standard-release.apk",
-      "size": 18424257,
-      "sha256": "247229698dec58b0258c599833d2e8d9282a908fe8be7cb2b41f6d0f8d4240d3"
+      "size": 8400563,
+      "sha256": "4c2f00a3981609091e7f643f663f6d6f5bbe743599569842ba1ba8638334a8a7"
     }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "version": "2.7.1",
+  "versionCode": 64,
+  "channel": "standard",
+  "notes": "【测试】withXr 双清单 OTA 渠道验证（test-withxr-ota 分支，非正式发布）",
+  "publishedAt": "2026-08-12T20:32:12+08:00",
+  "apks": {
+    "arm64-v8a": {
+      "file": "apks/VComic_v2.7.1-arm64-v8a-standard-withXr-release.apk",
+      "size": 17937043,
+      "sha256": "e96cbc48ea10ce3d5fc8b507d37ae8eff439efdb76e0f92807afa7f357084e6c"
+    },
+    "x86_64": {
+      "file": "apks/VComic_v2.7.1-x86_64-standard-withXr-release.apk",
+      "size": 18424569,
+      "sha256": "87e3d36f5709a4d54c67a8721e81ffb02baa23f3b291d30862b036046bcd1a06"
+    }
+  }
+}
