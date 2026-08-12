@@ -1,0 +1,19 @@
+{
+  "version": "2.7.1",
+  "versionCode": 64,
+  "channel": "standard",
+  "notes": "【新功能】\n• 包体去除 Android XR 依赖，体积缩小一半~\n• 在支持 Android XR 的设备上，标准版启动时可提示升级到 XR 版；也可在「设置 → 关于」中手动升级\n\n【说明】\n• 标准版与 XR 版分别检查更新，互不影响\n• 升级到 XR 版后可使用 Full Space 沉浸式多页阅读等 XR 能力",
+  "publishedAt": "2026-08-12T20:51:34+08:00",
+  "apks": {
+    "arm64-v8a": {
+      "file": "apks/VComic_v2.7.1-arm64-v8a-standard-withXr-release.apk",
+      "size": 17937043,
+      "sha256": "b247f159fadefbb05f5b0775e1a92f39af6c547ac1447564808ea0d0fd6ed91d"
+    },
+    "x86_64": {
+      "file": "apks/VComic_v2.7.1-x86_64-standard-withXr-release.apk",
+      "size": 18424569,
+      "sha256": "d6331dfcb732497f718e39ba62771809b5f5141a7f3873bb6a520ddcb6b2fd34"
+    }
+  }
+}
