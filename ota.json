@@ -1,24 +1,24 @@
 {
-  "version": "2.8.1",
-  "versionCode": 66,
+  "version": "2.9.0",
+  "versionCode": 67,
   "channel": "standard",
-  "notes": "【新功能】\n• 新增日语、韩语、俄语界面语言\n• 设置 → 网络 新增「漫画源与更新加速」：在部分地区可加快漫画源与应用更新下载\n• 应用更新说明支持多语言展示，会跟随当前界面语言\n\n【优化】\n• 拉取漫画源或更新较慢时，会提示可到设置中开启网络加速\n\n【说明】\n• 加速开关默认关闭，可按需开启",
-  "notes_en_US": "【New】\n• Added Japanese, Korean, and Russian UI languages\n• Settings → Network: new “Comic source and update acceleration” — can speed up source and app update downloads in some regions\n• Update notes support multiple languages and follow the current app language\n\n【Improvements】\n• When source or update downloads are slow, a tip suggests turning on network acceleration in Settings\n\n【Notes】\n• Acceleration is off by default; turn it on when needed",
-  "notes_ja_JP": "【新機能】\n• 日本語・韓国語・ロシア語の画面言語を追加\n• 設定 → ネットワークに「漫画ソースと更新の高速化」を追加：一部地域でソースやアプリ更新のダウンロードを高速化できる場合があります\n• アップデート説明が多言語に対応し、アプリの表示言語に合わせて切り替わります\n\n【改善】\n• ソース取得や更新が遅いときは、設定でネットワーク高速化をオンにするよう案内します\n\n【補足】\n• 高速化はデフォルトでオフです。必要に応じてオンにしてください",
-  "notes_ko_KR": "【새 기능】\n• 일본어, 한국어, 러시아어 UI 언어 추가\n• 설정 → 네트워크에 「만화 소스 및 업데이트 가속」 추가: 일부 지역에서 소스·앱 업데이트 다운로드를 더 빠르게 할 수 있습니다\n• 업데이트 설명이 다국어를 지원하며 현재 앱 언어를 따릅니다\n\n【개선】\n• 소스 가져오기나 업데이트가 느릴 때 설정에서 네트워크 가속을 켜 보라는 안내를 표시합니다\n\n【안내】\n• 가속은 기본적으로 꺼져 있으며 필요할 때 켤 수 있습니다",
-  "notes_ru_RU": "【Новое】\n• Добавлены языки интерфейса: японский, корейский и русский\n• Настройки → Сеть: «Ускорение источников и обновлений» — в некоторых регионах может ускорить загрузку источников и обновлений приложения\n• Текст обновлений поддерживает несколько языков и следует языку приложения\n\n【Улучшения】\n• При медленной загрузке источников или обновлений подсказываем включить ускорение сети в настройках\n\n【Примечание】\n• Ускорение по умолчанию выключено; включайте при необходимости",
-  "notes_zh_TW": "【新功能】\n• 新增日語、韓語、俄語介面語言\n• 設定 → 網路 新增「漫畫源與更新加速」：在部分地區可加快漫畫源與應用更新下載\n• 應用更新說明支援多語言展示，會跟隨目前介面語言\n\n【優化】\n• 拉取漫畫源或更新較慢時，會提示可到設定中開啟網路加速\n\n【說明】\n• 加速開關預設關閉，可按需開啟",
-  "publishedAt": "2026-08-12T22:54:36+08:00",
+  "notes": "【优化】\n• 阅读时当前页会更快显示，翻页更顺畅\n• 降低长时间阅读时的内存占用，减少卡顿和闪退风险\n• 设置中的缓存上限现已生效，阅读页不再把内部存储越占越多\n• 修改外观等无关设置时，搜索和分类列表不会再重新加载\n• 浏览不同漫画源时更不容易互相卡住\n\n【说明】\n• 本次为性能优化，无新功能入口",
+  "notes_en_US": "【Improvements】\n• The current page appears sooner while reading, and page turns feel smoother\n• Lower memory use during long reading sessions, with less stuttering and fewer crash risks\n• The cache limit in Settings now takes effect, so reading pages no longer fill internal storage without bound\n• Changing appearance and other unrelated settings no longer reloads search and category lists\n• Browsing different comic sources is less likely to stall one another\n\n【Notes】\n• This release is a performance update; it does not add new feature entries",
+  "notes_ja_JP": "【改善】\n• 読書中に現在のページがより早く表示され、めくりが滑らかになります\n• 長時間の読書でメモリ使用量を抑え、カクつきや強制終了のリスクを減らします\n• 設定のキャッシュ上限が有効になり、読書ページが内部ストレージを際限なく圧迫しなくなります\n• 外観など関係のない設定を変えても、検索やカテゴリ一覧が再読み込みされません\n• 異なる漫画ソースを行き来しても、互いに引っかかりにくくなります\n\n【補足】\n• 今回はパフォーマンス改善です。新しい機能入口はありません",
+  "notes_ko_KR": "【개선】\n• 읽는 중 현재 페이지가 더 빨리 나타나고 넘기기가 더 부드러워집니다\n• 오래 읽을 때 메모리 사용을 줄여 끊김과 강제 종료 위험을 낮춥니다\n• 설정의 캐시 상한이 이제 적용되어, 읽기 페이지가 내부 저장소를 끝없이 채우지 않습니다\n• 외관 등 관련 없는 설정을 바꿔도 검색·분류 목록이 다시 불러와지지 않습니다\n• 다른 만화 소스를 오갈 때 서로 막히기 어려워집니다\n\n【안내】\n• 이번 버전은 성능 개선이며 새 기능 입구는 없습니다",
+  "notes_ru_RU": "【Улучшения】\n• Текущая страница при чтении появляется быстрее, перелистывание стало плавнее\n• Меньше памяти при долгом чтении — меньше подвисаний и риска вылетов\n• Лимит кэша в настройках теперь действует: страницы чтения больше не заполняют внутреннюю память без ограничения\n• Смена оформления и других несвязанных настроек больше не перезагружает поиск и списки категорий\n• Переключение между разными источниками комиксов реже блокирует друг друга\n\n【Примечание】\n• Этот выпуск — оптимизация производительности, новых пунктов меню нет",
+  "notes_zh_TW": "【優化】\n• 閱讀時目前頁會更快顯示，翻頁更順暢\n• 降低長時間閱讀時的記憶體占用，減少卡頓和閃退風險\n• 設定中的快取上限現已生效，閱讀頁不再把內部儲存越占越多\n• 修改外觀等無關設定時，搜尋和分類列表不會再重新載入\n• 瀏覽不同漫畫源時更不容易互相卡住\n\n【說明】\n• 本次為效能優化，無新功能入口",
+  "publishedAt": "2026-08-13T00:44:15+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.8.1-arm64-v8a-standard-release.apk",
-      "size": 8376872,
-      "sha256": "7a99f1fe4eec7beb04922db8297d7c855717b75b8832a9c498897b3de5b5187f"
+      "file": "apks/VComic_v2.9.0-arm64-v8a-standard-release.apk",
+      "size": 8393260,
+      "sha256": "77a7c0c9f8061cb01cfb8a18ae01d79aaea3b377b138d69ce1736228b5d8a5cf"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.8.1-x86_64-standard-release.apk",
-      "size": 8438423,
-      "sha256": "e47198f4b9638d2860aa42777e215a19fdf670f3d7ecd9fa825c7ea078d143dc"
+      "file": "apks/VComic_v2.9.0-x86_64-standard-release.apk",
+      "size": 8454811,
+      "sha256": "bba170d45bc8d6923de671f89da1c814db91e915162fa7ec2eac09595dd59787"
     }
   }
 }
