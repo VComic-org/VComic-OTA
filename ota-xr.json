@@ -1,19 +1,24 @@
 {
-  "version": "2.8.0",
-  "versionCode": 65,
+  "version": "2.8.1",
+  "versionCode": 66,
   "channel": "standard",
-  "notes": "【新功能】\n• 包体去除 Android XR 依赖，体积缩小一半~\n• 在支持 Android XR 的设备上，标准版启动时可提示升级到 XR 版；也可在「设置 → 关于」中手动升级\n\n【说明】\n• 标准版与 XR 版分别检查更新，互不影响\n• 升级到 XR 版后可使用 Full Space 沉浸式多页阅读等 XR 能力",
-  "publishedAt": "2026-08-12T20:55:23+08:00",
+  "notes": "【新功能】\n• 新增日语、韩语、俄语界面语言\n• 设置 → 网络 新增「漫画源与更新加速」：在部分地区可加快漫画源与应用更新下载\n• 应用更新说明支持多语言展示，会跟随当前界面语言\n\n【优化】\n• 拉取漫画源或更新较慢时，会提示可到设置中开启网络加速\n\n【说明】\n• 加速开关默认关闭，可按需开启",
+  "notes_en_US": "【New】\n• Added Japanese, Korean, and Russian UI languages\n• Settings → Network: new “Comic source and update acceleration” — can speed up source and app update downloads in some regions\n• Update notes support multiple languages and follow the current app language\n\n【Improvements】\n• When source or update downloads are slow, a tip suggests turning on network acceleration in Settings\n\n【Notes】\n• Acceleration is off by default; turn it on when needed",
+  "notes_ja_JP": "【新機能】\n• 日本語・韓国語・ロシア語の画面言語を追加\n• 設定 → ネットワークに「漫画ソースと更新の高速化」を追加：一部地域でソースやアプリ更新のダウンロードを高速化できる場合があります\n• アップデート説明が多言語に対応し、アプリの表示言語に合わせて切り替わります\n\n【改善】\n• ソース取得や更新が遅いときは、設定でネットワーク高速化をオンにするよう案内します\n\n【補足】\n• 高速化はデフォルトでオフです。必要に応じてオンにしてください",
+  "notes_ko_KR": "【새 기능】\n• 일본어, 한국어, 러시아어 UI 언어 추가\n• 설정 → 네트워크에 「만화 소스 및 업데이트 가속」 추가: 일부 지역에서 소스·앱 업데이트 다운로드를 더 빠르게 할 수 있습니다\n• 업데이트 설명이 다국어를 지원하며 현재 앱 언어를 따릅니다\n\n【개선】\n• 소스 가져오기나 업데이트가 느릴 때 설정에서 네트워크 가속을 켜 보라는 안내를 표시합니다\n\n【안내】\n• 가속은 기본적으로 꺼져 있으며 필요할 때 켤 수 있습니다",
+  "notes_ru_RU": "【Новое】\n• Добавлены языки интерфейса: японский, корейский и русский\n• Настройки → Сеть: «Ускорение источников и обновлений» — в некоторых регионах может ускорить загрузку источников и обновлений приложения\n• Текст обновлений поддерживает несколько языков и следует языку приложения\n\n【Улучшения】\n• При медленной загрузке источников или обновлений подсказываем включить ускорение сети в настройках\n\n【Примечание】\n• Ускорение по умолчанию выключено; включайте при необходимости",
+  "notes_zh_TW": "【新功能】\n• 新增日語、韓語、俄語介面語言\n• 設定 → 網路 新增「漫畫源與更新加速」：在部分地區可加快漫畫源與應用更新下載\n• 應用更新說明支援多語言展示，會跟隨目前介面語言\n\n【優化】\n• 拉取漫畫源或更新較慢時，會提示可到設定中開啟網路加速\n\n【說明】\n• 加速開關預設關閉，可按需開啟",
+  "publishedAt": "2026-08-12T22:54:36+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.8.0-arm64-v8a-standard-withXr-release.apk",
-      "size": 17937043,
-      "sha256": "786828448f92c98ed938513d7a3d8cef15a5e0225bff0db82658c52a8d48a856"
+      "file": "apks/VComic_v2.8.1-arm64-v8a-standard-withXr-release.apk",
+      "size": 17991291,
+      "sha256": "b9bf48188c9c251e1dcaa9ca1d6f40e28c6c54a259e54766f3edc0ff3c69cef9"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.8.0-x86_64-standard-withXr-release.apk",
-      "size": 18424569,
-      "sha256": "dfa603ff14959f4ca06353dae82b20b1ee30a0cacc5d540ff9425b53950921df"
+      "file": "apks/VComic_v2.8.1-x86_64-standard-withXr-release.apk",
+      "size": 18478813,
+      "sha256": "1a8313b8f688df6a6bdf1e2457d7299a26013af0bdd8cd7929dc3e1bed597972"
     }
   }
 }
