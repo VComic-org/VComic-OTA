@@ -1,24 +1,24 @@
 {
-  "version": "2.10.0",
-  "versionCode": 68,
+  "version": "2.11.0",
+  "versionCode": 69,
   "channel": "standard",
-  "notes": "【新功能】\n• 有分章的漫画下载时可自行勾选章节，并支持一键全选尚未下载的章节\n• 详情页会为已下载的章节显示标记\n• 从本机列表打开已下载漫画时，会先进入详情页\n• 下载时会一并保存详情信息，断网时也能查看已下载漫画的简介和章节\n• 旧版本升级后，若本地还没有详情缓存：断网打开无分章漫画会直接阅读，有分章则可选择已下载的章节\n\n【优化】\n• 提升阅读、下载、首页和列表的流畅度\n• 减轻启动时检查追更带来的卡顿\n\n【修复】\n• 修复部分漫画源安装后，探索列表无法正常加载的问题\n• 修复已下载的漫画再次点击下载时，无法覆盖更新的问题\n• 修复部分页面加载失败后，重试无效的问题",
-  "notes_en_US": "【New】\n• When downloading a series, you can pick which chapters to save, including one-tap select for chapters not yet downloaded\n• Downloaded chapters are marked on the details page\n• Opening a downloaded comic from Local now goes to the details page first\n• Details are saved with the download so you can still view the summary and chapter list offline\n• After upgrading from an older version, if details were not cached: offline, chapterless comics open in the reader, and series let you pick a downloaded chapter\n\n【Improvements】\n• Smoother reading, downloads, Home, and lists\n• Less stutter at launch from follow-update checks\n\n【Fixes】\n• Fixed Explore failing to load after installing some comic sources\n• Fixed being unable to overwrite when tapping Download again on an already downloaded comic\n• Fixed retries that did nothing after some pages failed to load",
-  "notes_ja_JP": "【新機能】\n• 話数のある漫画は、ダウンロードする話を選べます。未ダウンロード分の一括選択にも対応\n• 詳細画面で、ダウンロード済みの話にマークを表示\n• 端末内リストからダウンロード済み漫画を開くと、まず詳細画面に入ります\n• ダウンロード時に詳細情報も保存し、オフラインでもあらすじと話一覧を確認できます\n• 旧バージョンから更新し、詳細のキャッシュがない場合：オフラインでは話数のない漫画はすぐ読め、話数がある場合はダウンロード済みの話を選べます\n\n【改善】\n• 閲覧・ダウンロード・ホーム・リストの動作をなめらかに\n• 起動時の更新チェックによる引っかかりを軽減\n\n【修正】\n• 一部の漫画ソースを入れたあと、探索一覧が読み込めない問題を修正\n• すでにダウンロードした漫画で、再度ダウンロードを押しても上書きできない問題を修正\n• 一部のページ読み込み失敗後、再試行が効かない問題を修正",
-  "notes_ko_KR": "【새 기능】\n• 회차가 있는 만화는 받을 회차를 고를 수 있고, 아직 받지 않은 회차를 한 번에 선택할 수 있습니다\n• 상세 화면에서 받은 회차에 표시가 나타납니다\n• 내 보관함에서 받은 만화를 열면 먼저 상세 화면으로 이동합니다\n• 받을 때 상세 정보도 함께 저장해, 오프라인에서도 소개와 회차 목록을 볼 수 있습니다\n• 이전 버전에서 올린 뒤 상세 캐시가 없으면: 오프라인에서 회차 없는 만화는 바로 읽고, 회차가 있으면 받은 회차를 고를 수 있습니다\n\n【개선】\n• 읽기, 다운로드, 홈, 목록이 더 부드러워졌습니다\n• 시작 시 연재 확인으로 인한 끊김을 줄였습니다\n\n【수정】\n• 일부 만화 소스를 설치한 뒤 탐색 목록이 열리지 않던 문제를 고쳤습니다\n• 이미 받은 만화에서 다시 다운로드를 눌러도 덮어쓰지 못하던 문제를 고쳤습니다\n• 일부 페이지 불러오기가 실패한 뒤 다시 시도가 동작하지 않던 문제를 고쳤습니다",
-  "notes_ru_RU": "【Новое】\n• При скачивании сериала можно выбрать главы, в том числе одним нажатием все ещё не скачанные\n• На странице сведений скачанные главы помечены\n• Открытие скачанной манги из раздела «На устройстве» сначала ведёт на страницу сведений\n• Вместе со скачиванием сохраняются сведения, чтобы офлайн можно было смотреть описание и список глав\n• После обновления со старой версии, если кэша сведений нет: офлайн манга без глав открывается в читалке, а с главами — можно выбрать уже скачанную главу\n\n【Улучшения】\n• Плавнее чтение, загрузки, главная и списки\n• Меньше подтормаживаний при запуске из‑за проверки обновлений подписок\n\n【Исправления】\n• Исправлена ошибка, из‑за которой после установки некоторых источников не загружался обзор\n• Исправлена невозможность перезаписать файлы при повторном нажатии «Скачать» для уже скачанной манги\n• Исправлено повторное открытие страниц, которое не срабатывало после сбоя загрузки",
-  "notes_zh_TW": "【新功能】\n• 有分章的漫畫下載時可自行勾選章節，並支援一鍵全選尚未下載的章節\n• 詳情頁會為已下載的章節顯示標記\n• 從本機列表開啟已下載漫畫時，會先進入詳情頁\n• 下載時會一併儲存詳情資訊，斷網時也能查看已下載漫畫的簡介和章節\n• 舊版本升級後，若本機還沒有詳情快取：斷網開啟無分章漫畫會直接閱讀，有分章則可選擇已下載的章節\n\n【優化】\n• 提升閱讀、下載、首頁和列表的流暢度\n• 減輕啟動時檢查追更帶來的卡頓\n\n【修復】\n• 修復部分漫畫源安裝後，探索列表無法正常載入的問題\n• 修復已下載的漫畫再次點擊下載時，無法覆蓋更新的問題\n• 修復部分頁面載入失敗後，重試無效的問題",
-  "publishedAt": "2026-08-13T15:51:43+08:00",
+  "notes": "【新功能】\n• 设置中新增「隐私」分类\n• 可将指定漫画源标记为隐私：防止社死\n\n【更新】\n• 「需要身份验证」已从「应用」移至「隐私」",
+  "notes_en_US": "【New】\n• New Privacy section in Settings\n• Mark selected comic sources as private to avoid awkward moments\n\n【Updates】\n• “Authorization Required” moved from App to Privacy",
+  "notes_ja_JP": "【新機能】\n• 設定に「プライバシー」カテゴリを追加\n• 指定した漫画ソースを非公開にして、気まずい場面を防ぐ\n\n【更新】\n• 「認証が必要です」を「アプリ」から「プライバシー」へ移動",
+  "notes_ko_KR": "【새 기능】\n• 설정에 「개인정보 보호」 분류 추가\n• 지정한 만화 소스를 비공개로 표시해 민망한 상황을 방지\n\n【업데이트】\n• 「인증 필요」를 「앱」에서 「개인정보 보호」로 이동",
+  "notes_ru_RU": "【Новое】\n• В настройках появился раздел «Конфиденциальность»\n• Можно пометить источники как приватные, чтобы избежать неловких ситуаций\n\n【Обновления】\n• «Требуется авторизация» перенесено из «Приложение» в «Конфиденциальность»",
+  "notes_zh_TW": "【新功能】\n• 設定中新增「隱私」分類\n• 可將指定漫畫源標記為隱私：防止社死\n\n【更新】\n• 「需要身份驗證」已從「應用」移至「隱私」",
+  "publishedAt": "2026-08-13T18:10:38+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.10.0-arm64-v8a-standard-release.apk",
-      "size": 8428040,
-      "sha256": "6b450dd23334d84d6f346a932994411a72c3eea88123c4a1063d085d6d2574d6"
+      "file": "apks/VComic_v2.11.0-arm64-v8a-standard-release.apk",
+      "size": 8462348,
+      "sha256": "df407e340a5dc7aeabf9ceea5d2e53667c38e807a443dbe66a40e5606b89bb2c"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.10.0-x86_64-standard-release.apk",
-      "size": 8489911,
-      "sha256": "2679ec21c7ee06242eb8b47d598819815f178919a60a9039c4e535702f1b65af"
+      "file": "apks/VComic_v2.11.0-x86_64-standard-release.apk",
+      "size": 8524219,
+      "sha256": "a399007ca87dfb07cadadcced01ddd7f2955a1865fc897d94b20a03d91811bda"
     }
   }
 }
