@@ -1,24 +1,24 @@
 {
-  "version": "2.11.0",
-  "versionCode": 69,
+  "version": "2.12.0",
+  "versionCode": 70,
   "channel": "standard",
-  "notes": "【新功能】\n• 设置中新增「隐私」分类\n• 可将指定漫画源标记为隐私：防止社死\n\n【更新】\n• 「需要身份验证」已从「应用」移至「隐私」",
-  "notes_en_US": "【New】\n• New Privacy section in Settings\n• Mark selected comic sources as private to avoid awkward moments\n\n【Updates】\n• “Authorization Required” moved from App to Privacy",
-  "notes_ja_JP": "【新機能】\n• 設定に「プライバシー」カテゴリを追加\n• 指定した漫画ソースを非公開にして、気まずい場面を防ぐ\n\n【更新】\n• 「認証が必要です」を「アプリ」から「プライバシー」へ移動",
-  "notes_ko_KR": "【새 기능】\n• 설정에 「개인정보 보호」 분류 추가\n• 지정한 만화 소스를 비공개로 표시해 민망한 상황을 방지\n\n【업데이트】\n• 「인증 필요」를 「앱」에서 「개인정보 보호」로 이동",
-  "notes_ru_RU": "【Новое】\n• В настройках появился раздел «Конфиденциальность»\n• Можно пометить источники как приватные, чтобы избежать неловких ситуаций\n\n【Обновления】\n• «Требуется авторизация» перенесено из «Приложение» в «Конфиденциальность»",
-  "notes_zh_TW": "【新功能】\n• 設定中新增「隱私」分類\n• 可將指定漫畫源標記為隱私：防止社死\n\n【更新】\n• 「需要身份驗證」已從「應用」移至「隱私」",
-  "publishedAt": "2026-08-13T18:10:38+08:00",
+  "notes": "【新功能】\n• Tag 语言包改为单独下载，可独立安装和更新（可在设置->发现中主动安装）\n• 新增自动检查漫画源更新功能\n\n【优化】\n• 安装语言包后，列表里的 Tag 会按应用语言显示\n• 进一步优化应用大小",
+  "notes_en_US": "【New】\n• The Tag language pack is now downloaded separately and can be installed or updated on its own (install from Settings → Explore)\n• Added automatic comic source update checks\n\n【Improvements】\n• After installing the language pack, tags in lists follow the app language\n• Further reduced app size",
+  "notes_ja_JP": "【新機能】\n• Tag 言語パックを個別ダウンロードに変更し、単独でインストール・更新できます（設定→探索からインストール可能）\n• マンガソースの自動更新チェックを追加\n\n【改善】\n• 言語パックをインストールすると、リストの Tag がアプリの言語で表示されます\n• アプリサイズをさらに最適化",
+  "notes_ko_KR": "【새 기능】\n• Tag 언어 팩을 따로 다운로드하도록 변경했으며, 독립적으로 설치·업데이트할 수 있습니다(설정→탐색에서 설치)\n• 만화 소스 자동 업데이트 확인 기능 추가\n\n【개선】\n• 언어 팩을 설치하면 목록의 Tag가 앱 언어로 표시됩니다\n• 앱 용량을 더욱 최적화",
+  "notes_ru_RU": "【Новое】\n• Языковой пакет тегов теперь скачивается отдельно и устанавливается или обновляется независимо (установка: Настройки → Обзор)\n• Добавлена автоматическая проверка обновлений источников манги\n\n【Улучшения】\n• После установки языкового пакета теги в списках отображаются на языке приложения\n• Ещё сильнее уменьшен размер приложения",
+  "notes_zh_TW": "【新功能】\n• Tag 語言包改為單獨下載，可獨立安裝和更新（可在設定->探索中主動安裝）\n• 新增自動檢查漫畫源更新功能\n\n【優化】\n• 安裝語言包後，列表裡的 Tag 會依應用語言顯示\n• 進一步優化應用大小",
+  "publishedAt": "2026-08-14T17:32:49+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.11.0-arm64-v8a-standard-withXr-release.apk",
-      "size": 18060375,
-      "sha256": "13a83d4d1e11e080fb8fd85ec894e92c1030976a1a7e3f148d17e85b70e633b7"
+      "file": "apks/VComic_v2.12.0-arm64-v8a-standard-withXr-release.apk",
+      "size": 16167619,
+      "sha256": "d9b6df514365652bb84c91c1d77f2f3e5ddf8b95a00557deabb66581471c0f92"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.11.0-x86_64-standard-withXr-release.apk",
-      "size": 18548221,
-      "sha256": "7d6a457a9054e40abc01df06dbc0193d8665bcf040434dcadd17d28582e779b8"
+      "file": "apks/VComic_v2.12.0-x86_64-standard-withXr-release.apk",
+      "size": 16670580,
+      "sha256": "5cd4754ee707ffcb7e5eae54bc8f3ab665e035099aad998c60a5686699cf2f02"
     }
   }
 }
