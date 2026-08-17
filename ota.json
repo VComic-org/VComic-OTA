@@ -1,24 +1,24 @@
 {
-  "version": "2.12.1",
-  "versionCode": 71,
+  "version": "2.12.2",
+  "versionCode": 72,
   "channel": "standard",
-  "notes": "【新功能】\n• Tag 语言包改为单独下载，可独立安装和更新（可在设置->发现中主动安装）\n• 新增自动检查漫画源更新功能\n\n【优化】\n• 安装语言包后，列表里的 Tag 会按应用语言显示\n• 进一步优化应用大小",
-  "notes_en_US": "【New】\n• The Tag language pack is now downloaded separately and can be installed or updated on its own (install from Settings → Explore)\n• Added automatic comic source update checks\n\n【Improvements】\n• After installing the language pack, tags in lists follow the app language\n• Further reduced app size",
-  "notes_ja_JP": "【新機能】\n• Tag 言語パックを個別ダウンロードに変更し、単独でインストール・更新できます（設定→探索からインストール可能）\n• マンガソースの自動更新チェックを追加\n\n【改善】\n• 言語パックをインストールすると、リストの Tag がアプリの言語で表示されます\n• アプリサイズをさらに最適化",
-  "notes_ko_KR": "【새 기능】\n• Tag 언어 팩을 따로 다운로드하도록 변경했으며, 독립적으로 설치·업데이트할 수 있습니다(설정→탐색에서 설치)\n• 만화 소스 자동 업데이트 확인 기능 추가\n\n【개선】\n• 언어 팩을 설치하면 목록의 Tag가 앱 언어로 표시됩니다\n• 앱 용량을 더욱 최적화",
-  "notes_ru_RU": "【Новое】\n• Языковой пакет тегов теперь скачивается отдельно и устанавливается или обновляется независимо (установка: Настройки → Обзор)\n• Добавлена автоматическая проверка обновлений источников манги\n\n【Улучшения】\n• После установки языкового пакета теги в списках отображаются на языке приложения\n• Ещё сильнее уменьшен размер приложения",
-  "notes_zh_TW": "【新功能】\n• Tag 語言包改為單獨下載，可獨立安裝和更新（可在設定->探索中主動安裝）\n• 新增自動檢查漫畫源更新功能\n\n【優化】\n• 安裝語言包後，列表裡的 Tag 會依應用語言顯示\n• 進一步優化應用大小",
-  "publishedAt": "2026-08-14T17:41:56+08:00",
+  "notes": "【优化】\n• 预加载下一页漫画列表时，同时预加载封面，翻页后封面显示更快\n\n【修复】\n• 修复连续从上到下阅读时，超长条漫发糊的问题",
+  "notes_en_US": "【Improvements】\n• When preloading the next comic list page, covers are preloaded too, so they appear faster after you turn the page\n\n【Fixes】\n• Fixed blurry extra-long strips in continuous top-to-bottom reading",
+  "notes_ja_JP": "【改善】\n• 次の漫画リストページをプリロードする際、表紙も一緒にプリロードし、ページ送り後に表紙がより早く表示されます\n\n【修正】\n• 上から下への連続読書で、極端に縦長の作品がぼやける問題を修正",
+  "notes_ko_KR": "【개선】\n• 다음 만화 목록 페이지를 미리 로드할 때 표지도 함께 미리 로드하여, 페이지를 넘긴 뒤 표지가 더 빨리 표시됩니다\n\n【수정】\n• 위에서 아래로 연속 읽기에서 매우 긴 세로 만화가 흐릿해지던 문제를 수정",
+  "notes_ru_RU": "【Улучшения】\n• При предзагрузке следующей страницы списка обложки тоже предзагружаются, поэтому после перелистывания они появляются быстрее\n\n【Исправления】\n• Исправлено размытие очень длинных полос в режиме непрерывного чтения сверху вниз",
+  "notes_zh_TW": "【優化】\n• 預載下一頁漫畫列表時，同時預載封面，翻頁後封面顯示更快\n\n【修復】\n• 修復連續從上到下閱讀時，超長條漫發糊的問題",
+  "publishedAt": "2026-08-17T22:15:50+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.12.1-arm64-v8a-standard-release.apk",
-      "size": 6553204,
-      "sha256": "07dbb6426f6b8958f9e8c6cc4215157f356710ec400bf636d039e0d743dc2c57"
+      "file": "apks/VComic_v2.12.2-arm64-v8a-standard-release.apk",
+      "size": 6553256,
+      "sha256": "48bd02073a1456cf1d6a2ce04fa5493cac8bd89633f3149e1229ddc975f83a8b"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.12.1-x86_64-standard-release.apk",
-      "size": 6630190,
-      "sha256": "ae1d14ed06d52fb6e1eb09eeb31688add5c95987aa0f426ebfb5524c32ea8a28"
+      "file": "apks/VComic_v2.12.2-x86_64-standard-release.apk",
+      "size": 6630242,
+      "sha256": "902d09031787712613d7500bbd8678fd48ea547b613b2c2eb97a881db02c1f71"
     }
   }
 }
