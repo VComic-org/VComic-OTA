@@ -1,24 +1,24 @@
 {
-  "version": "2.12.2",
-  "versionCode": 72,
+  "version": "2.12.3",
+  "versionCode": 73,
   "channel": "standard",
-  "notes": "【优化】\n• 预加载下一页漫画列表时，同时预加载封面，翻页后封面显示更快\n\n【修复】\n• 修复连续从上到下阅读时，超长条漫发糊的问题",
-  "notes_en_US": "【Improvements】\n• When preloading the next comic list page, covers are preloaded too, so they appear faster after you turn the page\n\n【Fixes】\n• Fixed blurry extra-long strips in continuous top-to-bottom reading",
-  "notes_ja_JP": "【改善】\n• 次の漫画リストページをプリロードする際、表紙も一緒にプリロードし、ページ送り後に表紙がより早く表示されます\n\n【修正】\n• 上から下への連続読書で、極端に縦長の作品がぼやける問題を修正",
-  "notes_ko_KR": "【개선】\n• 다음 만화 목록 페이지를 미리 로드할 때 표지도 함께 미리 로드하여, 페이지를 넘긴 뒤 표지가 더 빨리 표시됩니다\n\n【수정】\n• 위에서 아래로 연속 읽기에서 매우 긴 세로 만화가 흐릿해지던 문제를 수정",
-  "notes_ru_RU": "【Улучшения】\n• При предзагрузке следующей страницы списка обложки тоже предзагружаются, поэтому после перелистывания они появляются быстрее\n\n【Исправления】\n• Исправлено размытие очень длинных полос в режиме непрерывного чтения сверху вниз",
-  "notes_zh_TW": "【優化】\n• 預載下一頁漫畫列表時，同時預載封面，翻頁後封面顯示更快\n\n【修復】\n• 修復連續從上到下閱讀時，超長條漫發糊的問題",
-  "publishedAt": "2026-08-17T22:15:50+08:00",
+  "notes": "【优化】\n• 阅读页双指缩放效果优化\n• 连续阅读模式下放大改为全局放大",
+  "notes_en_US": "【Improvements】\n• Improved two-finger pinch-to-zoom in the reader\n• In continuous reading, zoom now applies to the whole view",
+  "notes_ja_JP": "【改善】\n• 読書画面のピンチズームを改善\n• 連続読書モードでは画面全体を拡大するように変更",
+  "notes_ko_KR": "【개선】\n• 읽기 화면의 두 손가락 확대/축소 효과를 개선\n• 연속 읽기 모드에서 확대가 화면 전체에 적용되도록 변경",
+  "notes_ru_RU": "【Улучшения】\n• Улучшен эффект масштабирования двумя пальцами в режиме чтения\n• В режиме непрерывного чтения масштабирование теперь применяется ко всему экрану",
+  "notes_zh_TW": "【優化】\n• 閱讀頁雙指縮放效果優化\n• 連續閱讀模式下放大改為全域放大",
+  "publishedAt": "2026-08-18T20:48:37+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.12.2-arm64-v8a-standard-release.apk",
-      "size": 6553256,
-      "sha256": "48bd02073a1456cf1d6a2ce04fa5493cac8bd89633f3149e1229ddc975f83a8b"
+      "file": "apks/VComic_v2.12.3-arm64-v8a-standard-release.apk",
+      "size": 6569640,
+      "sha256": "d3da4621382294cfa3593840634e16aaeba023bb1f391ebf78e606923e94153a"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.12.2-x86_64-standard-release.apk",
-      "size": 6630242,
-      "sha256": "902d09031787712613d7500bbd8678fd48ea547b613b2c2eb97a881db02c1f71"
+      "file": "apks/VComic_v2.12.3-x86_64-standard-release.apk",
+      "size": 6646626,
+      "sha256": "92413bd661827b93512603b950ac68c4cd4d1f84bbbcb9d142359b47fe706600"
     }
   }
 }
