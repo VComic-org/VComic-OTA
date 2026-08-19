@@ -1,24 +1,24 @@
 {
-  "version": "2.12.3",
-  "versionCode": 73,
+  "version": "2.13.0",
+  "versionCode": 74,
   "channel": "standard",
-  "notes": "【优化】\n• 阅读页双指缩放效果优化\n• 连续阅读模式下放大改为全局放大",
-  "notes_en_US": "【Improvements】\n• Improved two-finger pinch-to-zoom in the reader\n• In continuous reading, zoom now applies to the whole view",
-  "notes_ja_JP": "【改善】\n• 読書画面のピンチズームを改善\n• 連続読書モードでは画面全体を拡大するように変更",
-  "notes_ko_KR": "【개선】\n• 읽기 화면의 두 손가락 확대/축소 효과를 개선\n• 연속 읽기 모드에서 확대가 화면 전체에 적용되도록 변경",
-  "notes_ru_RU": "【Улучшения】\n• Улучшен эффект масштабирования двумя пальцами в режиме чтения\n• В режиме непрерывного чтения масштабирование теперь применяется ко всему экрану",
-  "notes_zh_TW": "【優化】\n• 閱讀頁雙指縮放效果優化\n• 連續閱讀模式下放大改為全域放大",
-  "publishedAt": "2026-08-18T20:48:37+08:00",
+  "notes": "【新功能】\n• 设置 → 外观新增「高级视效模式」：在非阅读页以系统壁纸为背景显示毛玻璃（效果因机型而异）\n\n【修复】\n• 打开收藏夹后滑动时，封面与文件夹信息会保持固定，只有漫画列表滚动\n• 修复非默认收藏夹无法自定义封面的问题",
+  "notes_en_US": "【New】\n• Settings → Appearance adds “Advanced visual effects mode”: frosted glass over the system wallpaper on non-reader pages (effect varies by device)\n\n【Fixes】\n• When scrolling inside a favorites folder, the cover and folder info stay put; only the comic list moves\n• Fixed custom folder covers not working on folders other than the default one",
+  "notes_ja_JP": "【新機能】\n• 設定 → 外観に「高度ビジュアルモード」を追加：読書画面以外でシステム壁紙をぼかして背景にします（効果は端末によります）\n\n【修正】\n• お気に入りフォルダ内をスクロールしてもカバーとフォルダ情報は固定され、漫画リストだけが動きます\n• デフォルト以外のフォルダでカバーをカスタムできない問題を修正",
+  "notes_ko_KR": "【새 기능】\n• 설정 → 모양에 「고급 시각 효과 모드」 추가: 읽기 화면이 아닐 때 시스템 배경화면을 블러 처리합니다(효과는 기기마다 다름)\n\n【수정】\n• 즐겨찾기 폴더에서 스크롤할 때 표지와 폴더 정보는 고정되고 만화 목록만 움직입니다\n• 기본 폴더가 아닌 폴더에서 표지를 바꿀 수 없던 문제를 수정",
+  "notes_ru_RU": "【Новое】\n• В Настройки → Оформление добавлен режим «Расширенные визуальные эффекты»: матовое стекло поверх системных обоев вне читалки (эффект зависит от устройства)\n\n【Исправления】\n• При прокрутке внутри папки избранного обложка и сведения о папке остаются на месте, двигается только список комиксов\n• Исправлена невозможность задать свою обложку для папок, кроме папки по умолчанию",
+  "notes_zh_TW": "【新功能】\n• 設定 → 外觀新增「進階視效模式」：在非閱讀頁以系統壁紙為背景顯示毛玻璃（效果因機型而異）\n\n【修復】\n• 打開收藏夾後滑動時，封面與資料夾資訊會保持固定，只有漫畫列表滾動\n• 修復非預設收藏夾無法自訂封面的問題",
+  "publishedAt": "2026-08-19T21:11:20+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.12.3-arm64-v8a-standard-withXr-release.apk",
-      "size": 16167671,
-      "sha256": "469275d70f8559bf7338062618fc0a36da4ae804a9087767b0c16b85d3c1deec"
+      "file": "apks/VComic_v2.13.0-arm64-v8a-standard-withXr-release.apk",
+      "size": 16190351,
+      "sha256": "afd42a138cd274f9ace5af2c78db1441d653c2b9b19389a0df0b174f241e0d0d"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.12.3-x86_64-standard-withXr-release.apk",
-      "size": 16670632,
-      "sha256": "0d6c0863675e8df0f36721590e5f79ca9b035e39b75a28e7a5460d61ff8f6a45"
+      "file": "apks/VComic_v2.13.0-x86_64-standard-withXr-release.apk",
+      "size": 16693312,
+      "sha256": "3efe973c613d4423cfb5c54e72d65eaac40297541ab7cbaf5a3cd98a89e95969"
     }
   }
 }
