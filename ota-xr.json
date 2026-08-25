@@ -1,24 +1,24 @@
 {
-  "version": "2.14.0",
-  "versionCode": 76,
+  "version": "2.14.1",
+  "versionCode": 77,
   "channel": "standard",
-  "notes": "【新功能】\n• 聚合搜索改为按漫画源分栏显示，每个源可独立加载和翻页，不再被最慢的源拖住\n\n【修复】\n• 修复分屏或调整窗口大小后，界面被打回首页的问题\n\n【更新】\n• 适配 Android 17",
-  "notes_en_US": "【New】\n• Aggregated search is now shown in per-source tabs; each source loads and pages on its own, so a slow source no longer holds up the rest\n\n【Fixes】\n• Fixed being sent back to Home after split-screen or resizing the window\n\n【Updates】\n• Support for Android 17",
-  "notes_ja_JP": "【新機能】\n• 横断検索をソースごとのタブ表示に変更。各ソースが独立して読み込み・ページ送りでき、遅いソースに全体が待たされなくなりました\n\n【修正】\n• 分割画面やウィンドウサイズ変更後にホームへ戻ってしまう問題を修正\n\n【更新】\n• Android 17 に対応",
-  "notes_ko_KR": "【새 기능】\n• 통합 검색을 만화 소스별 탭으로 표시합니다. 각 소스가 따로 불러오고 페이지를 넘기므로, 느린 소스 때문에 전체가 기다리지 않습니다\n\n【수정】\n• 분할 화면이나 창 크기를 바꾼 뒤 홈으로 돌아가던 문제를 수정\n\n【업데이트】\n• Android 17 지원",
-  "notes_ru_RU": "【Новое】\n• Агрегированный поиск теперь показывается вкладками по источникам: каждый загружается и листается отдельно, медленный источник больше не тормозит остальные\n\n【Исправления】\n• Исправлено возвращение на главный экран после разделения экрана или изменения размера окна\n\n【Обновления】\n• Поддержка Android 17",
-  "notes_zh_TW": "【新功能】\n• 聚合搜尋改為按漫畫源分欄顯示，每個源可獨立載入和翻頁，不再被最慢的源拖住\n\n【修復】\n• 修復分割畫面或調整視窗大小後，介面被打回首頁的問題\n\n【更新】\n• 適配 Android 17",
-  "publishedAt": "2026-08-24T20:24:50+08:00",
+  "notes": "【修复】\n• 修复检查 Tag 语言包更新时可能失败的问题\n• 修复 XR 沉浸式阅读在部分情况下无法正常使用的问题\n\n【更新】\n• 更新界面与系统组件，提升稳定性与兼容性\n• 升级网络组件\n• 升级 XR 沉浸式阅读相关组件",
+  "notes_en_US": "【Fixes】\n• Fixed Tag language pack update checks that could fail\n• Fixed XR immersive reading that could fail in some cases\n\n【Updates】\n• Updated UI and system components for better stability and compatibility\n• Upgraded the network stack\n• Upgraded components used by XR immersive reading",
+  "notes_ja_JP": "【修正】\n• Tag言語パックの更新確認が失敗することがある問題を修正しました\n• XR没入型閲覧が一部環境で正常に使えない問題を修正しました\n\n【更新】\n• 画面とシステムコンポーネントを更新し、安定性と互換性を向上しました\n• ネットワークコンポーネントを更新しました\n• XR没入型閲覧関連コンポーネントを更新しました",
+  "notes_ko_KR": "【수정】\n• Tag 언어팩 업데이트 확인이 실패할 수 있던 문제를 수정했습니다\n• XR 몰입형 읽기가 일부 상황에서 정상 동작하지 않던 문제를 수정했습니다\n\n【업데이트】\n• 인터페이스와 시스템 구성 요소를 업데이트하여 안정성과 호환성을 개선했습니다\n• 네트워크 구성 요소를 업그레이드했습니다\n• XR 몰입형 읽기 관련 구성 요소를 업그레이드했습니다",
+  "notes_ru_RU": "【Исправления】\n• Исправлена ошибка при проверке обновлений языкового пакета тегов\n• Исправлена работа иммерсивного чтения XR в некоторых случаях\n\n【Обновления】\n• Обновлены интерфейс и системные компоненты для повышения стабильности и совместимости\n• Обновлён сетевой стек\n• Обновлены компоненты иммерсивного чтения XR",
+  "notes_zh_TW": "【修復】\n• 修復檢查 Tag 語言包更新時可能失敗的問題\n• 修復 XR 沉浸式閱讀在部分情況下無法正常使用的問題\n\n【更新】\n• 更新介面與系統元件，提升穩定性與相容性\n• 升級網路元件\n• 升級 XR 沉浸式閱讀相關元件",
+  "publishedAt": "2026-08-25T22:02:41+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.14.0-arm64-v8a-standard-withXr-release.apk",
-      "size": 15898888,
-      "sha256": "af4a3cd221e733b467f780c50c0ee5e76829202d51e4b402238c462e32cfebeb"
+      "file": "apks/VComic_v2.14.1-arm64-v8a-standard-withXr-release.apk",
+      "size": 16221431,
+      "sha256": "80d8a5b5b1f2842d11daecf0f89c713846bbc5dfcfc54c699bcdeba6455491f0"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.14.0-x86_64-standard-withXr-release.apk",
-      "size": 16401849,
-      "sha256": "a5a20b96ea70b0b7db8f18d0b6b6fc139e7ea26548815b427e98f7486008729b"
+      "file": "apks/VComic_v2.14.1-x86_64-standard-withXr-release.apk",
+      "size": 16845562,
+      "sha256": "3be78a8a6bc3e3f859dd3e80df88662fc583dcc48e9e93f15b899e167b87e077"
     }
   }
 }
