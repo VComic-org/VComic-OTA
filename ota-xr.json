@@ -1,24 +1,24 @@
 {
-  "version": "2.14.1",
-  "versionCode": 77,
+  "version": "2.15.0",
+  "versionCode": 78,
   "channel": "standard",
-  "notes": "【修复】\n• 修复检查 Tag 语言包更新时可能失败的问题\n• 修复 XR 沉浸式阅读在部分情况下无法正常使用的问题\n\n【更新】\n• 更新界面与系统组件，提升稳定性与兼容性\n• 升级网络组件\n• 升级 XR 沉浸式阅读相关组件",
-  "notes_en_US": "【Fixes】\n• Fixed Tag language pack update checks that could fail\n• Fixed XR immersive reading that could fail in some cases\n\n【Updates】\n• Updated UI and system components for better stability and compatibility\n• Upgraded the network stack\n• Upgraded components used by XR immersive reading",
-  "notes_ja_JP": "【修正】\n• Tag言語パックの更新確認が失敗することがある問題を修正しました\n• XR没入型閲覧が一部環境で正常に使えない問題を修正しました\n\n【更新】\n• 画面とシステムコンポーネントを更新し、安定性と互換性を向上しました\n• ネットワークコンポーネントを更新しました\n• XR没入型閲覧関連コンポーネントを更新しました",
-  "notes_ko_KR": "【수정】\n• Tag 언어팩 업데이트 확인이 실패할 수 있던 문제를 수정했습니다\n• XR 몰입형 읽기가 일부 상황에서 정상 동작하지 않던 문제를 수정했습니다\n\n【업데이트】\n• 인터페이스와 시스템 구성 요소를 업데이트하여 안정성과 호환성을 개선했습니다\n• 네트워크 구성 요소를 업그레이드했습니다\n• XR 몰입형 읽기 관련 구성 요소를 업그레이드했습니다",
-  "notes_ru_RU": "【Исправления】\n• Исправлена ошибка при проверке обновлений языкового пакета тегов\n• Исправлена работа иммерсивного чтения XR в некоторых случаях\n\n【Обновления】\n• Обновлены интерфейс и системные компоненты для повышения стабильности и совместимости\n• Обновлён сетевой стек\n• Обновлены компоненты иммерсивного чтения XR",
-  "notes_zh_TW": "【修復】\n• 修復檢查 Tag 語言包更新時可能失敗的問題\n• 修復 XR 沉浸式閱讀在部分情況下無法正常使用的問題\n\n【更新】\n• 更新介面與系統元件，提升穩定性與相容性\n• 升級網路元件\n• 升級 XR 沉浸式閱讀相關元件",
-  "publishedAt": "2026-08-25T22:02:41+08:00",
+  "notes": "【新功能】\n• 新增折叠屏支持\n• 阅读页保存或分享图片时，优先保存/分享原始文件\n• 阅读页支持解码漫画的完整像素",
+  "notes_en_US": "【New】\n• Added foldable display support\n• Saving or sharing a reader page prefers the original file\n• The reader can decode a comic page at full resolution",
+  "notes_ja_JP": "【新機能】\n• フォルダブル画面に対応しました\n• 閲覧ページの保存・共有時は、元のファイルを優先します\n• 閲覧ページで漫画のフルピクセルをデコードできるようになりました",
+  "notes_ko_KR": "【새 기능】\n• 폴더블 화면 지원을 추가했습니다\n• 읽기 페이지에서 이미지를 저장하거나 공유할 때 원본 파일을 우선합니다\n• 읽기 페이지에서 만화의 전체 픽셀을 디코딩할 수 있습니다",
+  "notes_ru_RU": "【Новое】\n• Добавлена поддержка складных экранов\n• При сохранении или отправке изображения со страницы чтения приоритет отдаётся исходному файлу\n• На странице чтения можно декодировать комикс в полном разрешении",
+  "notes_zh_TW": "【新功能】\n• 新增折疊螢幕支援\n• 閱讀頁儲存或分享圖片時，優先儲存/分享原始檔案\n• 閱讀頁支援解碼漫畫的完整像素",
+  "publishedAt": "2026-08-26T15:14:41+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.14.1-arm64-v8a-standard-withXr-release.apk",
-      "size": 16221431,
-      "sha256": "80d8a5b5b1f2842d11daecf0f89c713846bbc5dfcfc54c699bcdeba6455491f0"
+      "file": "apks/VComic_v2.15.0-arm64-v8a-standard-withXr-release.apk",
+      "size": 16286967,
+      "sha256": "ff20ee102d9d5ae72719370d9a1f2f48aaa404a3ed350dbae0f7176f1ea90d97"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.14.1-x86_64-standard-withXr-release.apk",
-      "size": 16845562,
-      "sha256": "3be78a8a6bc3e3f859dd3e80df88662fc583dcc48e9e93f15b899e167b87e077"
+      "file": "apks/VComic_v2.15.0-x86_64-standard-withXr-release.apk",
+      "size": 16911098,
+      "sha256": "05de6ca4360760fe0c218265e97ace8d4440c45199777822913886e7d2ee0297"
     }
   }
 }
