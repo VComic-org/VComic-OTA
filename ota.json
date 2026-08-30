@@ -1,24 +1,24 @@
 {
-  "version": "2.15.1",
-  "versionCode": 79,
+  "version": "2.15.2",
+  "versionCode": 80,
   "channel": "standard",
-  "notes": "【新功能】\n• 新增折叠屏分栏模式下的漫画打开动画\n\n【修复】\n• 修复折叠屏分栏中打开相关作品时，详情页可能停留在上一本滚动位置的问题\n• 修复折叠屏分栏在列表翻页与详情同时加载时界面可能卡住的问题",
-  "notes_en_US": "【New】\n• Added an animation for opening comics in foldable split-pane mode\n\n【Fixes】\n• Fixed an issue where the details page could keep the previous title’s scroll position when opening a related work in foldable split-pane mode\n• Fixed an issue where the interface could freeze when list paging and details loaded at the same time in foldable split-pane mode",
-  "notes_ja_JP": "【新機能】\n• フォルダブル画面の分割表示で漫画を開くアニメーションを追加しました\n\n【修正】\n• フォルダブル画面の分割表示で関連作品を開いたとき、詳細画面が前の作品のスクロール位置のままになることがある問題を修正しました\n• フォルダブル画面の分割表示でリストのページ送りと詳細の読み込みが同時に行われると画面が固まることがある問題を修正しました",
-  "notes_ko_KR": "【새 기능】\n• 폴더블 화면 분할 모드에서 만화를 여는 애니메이션을 추가했습니다\n\n【수정】\n• 폴더블 화면 분할 모드에서 관련 작품을 열 때 상세 페이지가 이전 작품의 스크롤 위치에 머무를 수 있던 문제를 수정했습니다\n• 폴더블 화면 분할 모드에서 목록 페이지 넘김과 상세 정보 불러오기가 동시에 진행될 때 화면이 멈출 수 있던 문제를 수정했습니다",
-  "notes_ru_RU": "【Новое】\n• Добавлена анимация открытия комикса в режиме разделённого экрана на складных устройствах\n\n【Исправления】\n• Исправлена проблема, из‑за которой страница сведений могла сохранять позицию прокрутки предыдущей работы при открытии связанного произведения в режиме разделённого экрана на складных устройствах\n• Исправлена проблема, из‑за которой интерфейс мог зависать, если в режиме разделённого экрана на складных устройствах одновременно загружались следующая страница списка и сведения",
-  "notes_zh_TW": "【新功能】\n• 新增折疊螢幕分欄模式下的漫畫打開動畫\n\n【修復】\n• 修復折疊螢幕分欄中打開相關作品時，詳情頁可能停留在上一本捲動位置的問題\n• 修復折疊螢幕分欄在列表翻頁與詳情同時載入時介面可能卡住的問題",
-  "publishedAt": "2026-08-28T22:41:09+08:00",
+  "notes": "【修复】\n• 修复部分漫画源详情页打不开、预览图显示异常的问题\n• 修复部分漫画源探索页、搜索页无法加载或翻页的问题\n• 修复下载漏页却被标为完成的问题，缺页内容可重新下载补全",
+  "notes_en_US": "【Fixes】\n• Fixed an issue where some comic sources could not open details pages or displayed preview thumbnails incorrectly\n• Fixed an issue where some comic sources could not load or paginate explore and search pages\n• Fixed downloads being marked complete despite missing pages; incomplete comics can be downloaded again to fill the gaps",
+  "notes_ja_JP": "【修正】\n• 一部の漫画ソースで詳細ページが開けない、プレビュー画像が正しく表示されない問題を修正しました\n• 一部の漫画ソースで探索ページや検索ページを読み込めない、ページ送りできない問題を修正しました\n• ページが欠けているのにダウンロード完了と表示される問題を修正しました。欠けた内容は再ダウンロードで補完できます",
+  "notes_ko_KR": "【수정】\n• 일부 만화 소스에서 상세 페이지가 열리지 않거나 미리보기 이미지가 이상하게 표시되던 문제를 수정했습니다\n• 일부 만화 소스에서 탐색 페이지와 검색 페이지를 불러오거나 넘기지 못하던 문제를 수정했습니다\n• 페이지가 빠져 있는데도 다운로드가 완료로 표시되던 문제를 수정했습니다. 빠진 내용은 다시 다운로드해 채울 수 있습니다",
+  "notes_ru_RU": "【Исправления】\n• Исправлена проблема, из‑за которой у некоторых источников не открывалась страница сведений или некорректно отображались превью\n• Исправлена проблема, из‑за которой у некоторых источников не загружались или не перелистывались страницы обзора и поиска\n• Исправлена проблема, из‑за которой загрузка помечалась завершённой при пропущенных страницах; недостающие страницы можно докачать повторно",
+  "notes_zh_TW": "【修復】\n• 修復部分漫畫源詳情頁打不開、預覽圖顯示異常的問題\n• 修復部分漫畫源探索頁、搜尋頁無法載入或翻頁的問題\n• 修復下載漏頁卻被標為完成的問題，缺頁內容可重新下載補全",
+  "publishedAt": "2026-08-30T23:33:40+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.15.1-arm64-v8a-standard-release.apk",
-      "size": 6588845,
-      "sha256": "9b740d81feb9d8bffb544c35765c852c0d77828066bc89c3edba0a2b216f5486"
+      "file": "apks/VComic_v2.15.2-arm64-v8a-standard-release.apk",
+      "size": 6588849,
+      "sha256": "b73b6c05759c20f1d34895ef134caf700b173775327245d993a6f55ddbb35f3f"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.15.1-x86_64-standard-release.apk",
-      "size": 6672319,
-      "sha256": "f1bf7aad25c018652e0e0b59fe032652235e6d2159dda88f50af1f615bf5b362"
+      "file": "apks/VComic_v2.15.2-x86_64-standard-release.apk",
+      "size": 6672323,
+      "sha256": "591a77b7cfd9040010bfef777c303c09385388174da940bdc73d3968a6a9ba39"
     }
   }
 }
