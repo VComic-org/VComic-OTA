@@ -1,6 +1,6 @@
 {
-  "version": "2.15.2",
-  "versionCode": 80,
+  "version": "2.15.3",
+  "versionCode": 81,
   "channel": "standard",
   "notes": "【修复】\n• 修复部分漫画源详情页打不开、预览图显示异常的问题\n• 修复部分漫画源探索页、搜索页无法加载或翻页的问题\n• 修复下载漏页却被标为完成的问题，缺页内容可重新下载补全",
   "notes_en_US": "【Fixes】\n• Fixed an issue where some comic sources could not open details pages or displayed preview thumbnails incorrectly\n• Fixed an issue where some comic sources could not load or paginate explore and search pages\n• Fixed downloads being marked complete despite missing pages; incomplete comics can be downloaded again to fill the gaps",
@@ -8,17 +8,17 @@
   "notes_ko_KR": "【수정】\n• 일부 만화 소스에서 상세 페이지가 열리지 않거나 미리보기 이미지가 이상하게 표시되던 문제를 수정했습니다\n• 일부 만화 소스에서 탐색 페이지와 검색 페이지를 불러오거나 넘기지 못하던 문제를 수정했습니다\n• 페이지가 빠져 있는데도 다운로드가 완료로 표시되던 문제를 수정했습니다. 빠진 내용은 다시 다운로드해 채울 수 있습니다",
   "notes_ru_RU": "【Исправления】\n• Исправлена проблема, из‑за которой у некоторых источников не открывалась страница сведений или некорректно отображались превью\n• Исправлена проблема, из‑за которой у некоторых источников не загружались или не перелистывались страницы обзора и поиска\n• Исправлена проблема, из‑за которой загрузка помечалась завершённой при пропущенных страницах; недостающие страницы можно докачать повторно",
   "notes_zh_TW": "【修復】\n• 修復部分漫畫源詳情頁打不開、預覽圖顯示異常的問題\n• 修復部分漫畫源探索頁、搜尋頁無法載入或翻頁的問題\n• 修復下載漏頁卻被標為完成的問題，缺頁內容可重新下載補全",
-  "publishedAt": "2026-08-30T23:33:40+08:00",
+  "publishedAt": "2026-08-31T00:25:08+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.15.2-arm64-v8a-standard-withXr-release.apk",
-      "size": 16303351,
-      "sha256": "7364c22991292c50a980f925ef5b7bbd7de73e5a41f899359b287dc99f0ce4e6"
+      "file": "apks/VComic_v2.15.3-arm64-v8a-standard-withXr-release.apk",
+      "size": 16319735,
+      "sha256": "624c85480284f1e3d2df4d53f2d90e963bcdb3926bcfc77fcd22a4a0fa9ca028"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.15.2-x86_64-standard-withXr-release.apk",
-      "size": 16927482,
-      "sha256": "eb8f97b7f1df18d2a4598c6ed65b421ba129124028cfe9c22d97b99e2f94149c"
+      "file": "apks/VComic_v2.15.3-x86_64-standard-withXr-release.apk",
+      "size": 16943866,
+      "sha256": "255b0b20187024b4003a2e2c121c2851f9154c55685a4a714a8d9f3a39d999ef"
     }
   }
 }
