@@ -1,24 +1,24 @@
 {
-  "version": "2.15.3",
-  "versionCode": 81,
+  "version": "2.16.0",
+  "versionCode": 82,
   "channel": "standard",
-  "notes": "【修复】\n• 修复部分漫画源详情页打不开、预览图显示异常的问题\n• 修复部分漫画源探索页、搜索页无法加载或翻页的问题\n• 修复下载漏页却被标为完成的问题，缺页内容可重新下载补全",
-  "notes_en_US": "【Fixes】\n• Fixed an issue where some comic sources could not open details pages or displayed preview thumbnails incorrectly\n• Fixed an issue where some comic sources could not load or paginate explore and search pages\n• Fixed downloads being marked complete despite missing pages; incomplete comics can be downloaded again to fill the gaps",
-  "notes_ja_JP": "【修正】\n• 一部の漫画ソースで詳細ページが開けない、プレビュー画像が正しく表示されない問題を修正しました\n• 一部の漫画ソースで探索ページや検索ページを読み込めない、ページ送りできない問題を修正しました\n• ページが欠けているのにダウンロード完了と表示される問題を修正しました。欠けた内容は再ダウンロードで補完できます",
-  "notes_ko_KR": "【수정】\n• 일부 만화 소스에서 상세 페이지가 열리지 않거나 미리보기 이미지가 이상하게 표시되던 문제를 수정했습니다\n• 일부 만화 소스에서 탐색 페이지와 검색 페이지를 불러오거나 넘기지 못하던 문제를 수정했습니다\n• 페이지가 빠져 있는데도 다운로드가 완료로 표시되던 문제를 수정했습니다. 빠진 내용은 다시 다운로드해 채울 수 있습니다",
-  "notes_ru_RU": "【Исправления】\n• Исправлена проблема, из‑за которой у некоторых источников не открывалась страница сведений или некорректно отображались превью\n• Исправлена проблема, из‑за которой у некоторых источников не загружались или не перелистывались страницы обзора и поиска\n• Исправлена проблема, из‑за которой загрузка помечалась завершённой при пропущенных страницах; недостающие страницы можно докачать повторно",
-  "notes_zh_TW": "【修復】\n• 修復部分漫畫源詳情頁打不開、預覽圖顯示異常的問題\n• 修復部分漫畫源探索頁、搜尋頁無法載入或翻頁的問題\n• 修復下載漏頁卻被標為完成的問題，缺頁內容可重新下載補全",
-  "publishedAt": "2026-08-31T00:25:08+08:00",
+  "notes": "【新功能】\n• 在支持的漫画源下，详细列表与漫画详情会显示来源提供的星级评分\n\n【修复】\n• 修复折叠屏重装后第一次点开漫画无法左右分栏的问题",
+  "notes_en_US": "【New】\n• On supported comic sources, detailed lists and comic details now show the source's star rating\n\n【Fixes】\n• Fixed foldable devices not splitting the list and details when opening a comic for the first time after a reinstall",
+  "notes_ja_JP": "【新機能】\n• 対応する漫画ソースでは、詳細リストと作品詳細にソース提供の星評価を表示します\n\n【修正】\n• 折りたたみ端末で再インストール後、初めて漫画を開いたときに左右分割にならない問題を修正しました",
+  "notes_ko_KR": "【새 기능】\n• 지원하는 만화 소스에서는 상세 목록과 작품 상세에 소스에서 제공하는 별점 평가를 표시합니다\n\n【수정】\n• 폴더블에서 재설치 후 처음 만화를 열 때 좌우 분할이 되지 않던 문제를 수정했습니다",
+  "notes_ru_RU": "【Новое】\n• В поддерживаемых источниках в подробном списке и на странице произведения отображается звёздный рейтинг источника\n\n【Исправления】\n• Исправлено: на складных устройствах после переустановки при первом открытии произведения не включалось разделение списка и сведений",
+  "notes_zh_TW": "【新功能】\n• 在支援的漫畫源下，詳細列表與漫畫詳情會顯示來源提供的星級評分\n\n【修復】\n• 修復摺疊螢幕重裝後第一次點開漫畫無法左右分欄的問題",
+  "publishedAt": "2026-09-01T12:05:32+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.15.3-arm64-v8a-standard-withXr-release.apk",
-      "size": 16319735,
-      "sha256": "624c85480284f1e3d2df4d53f2d90e963bcdb3926bcfc77fcd22a4a0fa9ca028"
+      "file": "apks/VComic_v2.16.0-arm64-v8a-standard-withXr-release.apk",
+      "size": 16319787,
+      "sha256": "af6c02b6b52995e8b5edb476bdd3b399bfe497d807c5cb7f8dc2b8b7d7a40457"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.15.3-x86_64-standard-withXr-release.apk",
-      "size": 16943866,
-      "sha256": "255b0b20187024b4003a2e2c121c2851f9154c55685a4a714a8d9f3a39d999ef"
+      "file": "apks/VComic_v2.16.0-x86_64-standard-withXr-release.apk",
+      "size": 16943918,
+      "sha256": "0611d3895546e0fb0af18642fc8920e1612e88f8d09c700df058beebee41f339"
     }
   }
 }
