@@ -1,24 +1,24 @@
 {
-  "version": "2.16.0",
-  "versionCode": 82,
+  "version": "2.16.1",
+  "versionCode": 83,
   "channel": "standard",
-  "notes": "【新功能】\n• 在支持的漫画源下，详细列表与漫画详情会显示来源提供的星级评分\n\n【修复】\n• 修复折叠屏重装后第一次点开漫画无法左右分栏的问题",
-  "notes_en_US": "【New】\n• On supported comic sources, detailed lists and comic details now show the source's star rating\n\n【Fixes】\n• Fixed foldable devices not splitting the list and details when opening a comic for the first time after a reinstall",
-  "notes_ja_JP": "【新機能】\n• 対応する漫画ソースでは、詳細リストと作品詳細にソース提供の星評価を表示します\n\n【修正】\n• 折りたたみ端末で再インストール後、初めて漫画を開いたときに左右分割にならない問題を修正しました",
-  "notes_ko_KR": "【새 기능】\n• 지원하는 만화 소스에서는 상세 목록과 작품 상세에 소스에서 제공하는 별점 평가를 표시합니다\n\n【수정】\n• 폴더블에서 재설치 후 처음 만화를 열 때 좌우 분할이 되지 않던 문제를 수정했습니다",
-  "notes_ru_RU": "【Новое】\n• В поддерживаемых источниках в подробном списке и на странице произведения отображается звёздный рейтинг источника\n\n【Исправления】\n• Исправлено: на складных устройствах после переустановки при первом открытии произведения не включалось разделение списка и сведений",
-  "notes_zh_TW": "【新功能】\n• 在支援的漫畫源下，詳細列表與漫畫詳情會顯示來源提供的星級評分\n\n【修復】\n• 修復摺疊螢幕重裝後第一次點開漫畫無法左右分欄的問題",
-  "publishedAt": "2026-09-01T12:05:32+08:00",
+  "notes": "【优化】\n• 导入或导出应用数据时会弹出进度提示",
+  "notes_en_US": "【Improvements】\n• Importing or exporting app data now shows a progress prompt",
+  "notes_ja_JP": "【改善】\n• アプリデータの読み込みまたは書き出し時に進捗が表示されます",
+  "notes_ko_KR": "【개선】\n• 앱 데이터를 가져오거나 내보낼 때 진행 상태가 표시됩니다",
+  "notes_ru_RU": "【Улучшения】\n• При импорте или экспорте данных приложения показывается индикатор хода",
+  "notes_zh_TW": "【優化】\n• 匯入或匯出應用資料時會彈出進度提示",
+  "publishedAt": "2026-09-04T11:56:23+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.16.0-arm64-v8a-standard-withXr-release.apk",
-      "size": 16319787,
-      "sha256": "af6c02b6b52995e8b5edb476bdd3b399bfe497d807c5cb7f8dc2b8b7d7a40457"
+      "file": "apks/VComic_v2.16.1-arm64-v8a-standard-withXr-release.apk",
+      "size": 16336571,
+      "sha256": "12d8ab1d8ab38c77f724538b6bcd7c00e7ee943c27c73c8cbe6c256e54a61cfa"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.16.0-x86_64-standard-withXr-release.apk",
-      "size": 16943918,
-      "sha256": "0611d3895546e0fb0af18642fc8920e1612e88f8d09c700df058beebee41f339"
+      "file": "apks/VComic_v2.16.1-x86_64-standard-withXr-release.apk",
+      "size": 16960702,
+      "sha256": "1a5366c524a119124a07c44bd51d32978c4677664958cfb935169f63a5c5d1cd"
     }
   }
 }
