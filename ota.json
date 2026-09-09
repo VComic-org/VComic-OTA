@@ -1,24 +1,24 @@
 {
-  "version": "2.16.1",
-  "versionCode": 83,
+  "version": "2.16.2",
+  "versionCode": 84,
   "channel": "standard",
-  "notes": "【优化】\n• 导入或导出应用数据时会弹出进度提示",
-  "notes_en_US": "【Improvements】\n• Importing or exporting app data now shows a progress prompt",
-  "notes_ja_JP": "【改善】\n• アプリデータの読み込みまたは書き出し時に進捗が表示されます",
-  "notes_ko_KR": "【개선】\n• 앱 데이터를 가져오거나 내보낼 때 진행 상태가 표시됩니다",
-  "notes_ru_RU": "【Улучшения】\n• При импорте или экспорте данных приложения показывается индикатор хода",
-  "notes_zh_TW": "【優化】\n• 匯入或匯出應用資料時會彈出進度提示",
-  "publishedAt": "2026-09-04T11:56:23+08:00",
+  "notes": "【更新】\n• 升级底层组件，提升稳定性",
+  "notes_en_US": "【Updates】\n• Upgraded underlying components for better stability",
+  "notes_ja_JP": "【更新】\n• 基盤コンポーネントを更新し、安定性を向上しました",
+  "notes_ko_KR": "【업데이트】\n• 기반 구성 요소를 업그레이드하여 안정성을 높였습니다",
+  "notes_ru_RU": "【Обновления】\n• Обновлены базовые компоненты для повышения стабильности",
+  "notes_zh_TW": "【更新】\n• 升級底層元件，提升穩定性",
+  "publishedAt": "2026-09-09T17:13:11+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.16.1-arm64-v8a-standard-release.apk",
-      "size": 6622069,
-      "sha256": "ecc63381ae589985b83591e868d9415c69cafcc84cfe8eebbf2e70c22a7ea8f4"
+      "file": "apks/VComic_v2.16.2-arm64-v8a-standard-release.apk",
+      "size": 6518249,
+      "sha256": "ca9dc736e9c9fa907dabd7be7e39bf7e86e6245fb1ecaff771bee80204b65a06"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.16.1-x86_64-standard-release.apk",
-      "size": 6705543,
-      "sha256": "33139ea67a91da5e2c27917906ad11980779b30a6bcf4d3d4188cce24e4cf3db"
+      "file": "apks/VComic_v2.16.2-x86_64-standard-release.apk",
+      "size": 6607287,
+      "sha256": "97802b6b7f0fd17475a7e53a8dbf57aecd373be9120eb47b95e1581540b0b0be"
     }
   }
 }
