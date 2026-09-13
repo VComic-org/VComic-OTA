@@ -1,24 +1,24 @@
 {
-  "version": "2.16.2",
-  "versionCode": 84,
+  "version": "2.17.0",
+  "versionCode": 85,
   "channel": "standard",
-  "notes": "【更新】\n• 升级底层组件，提升稳定性",
-  "notes_en_US": "【Updates】\n• Upgraded underlying components for better stability",
-  "notes_ja_JP": "【更新】\n• 基盤コンポーネントを更新し、安定性を向上しました",
-  "notes_ko_KR": "【업데이트】\n• 기반 구성 요소를 업그레이드하여 안정성을 높였습니다",
-  "notes_ru_RU": "【Обновления】\n• Обновлены базовые компоненты для повышения стабильности",
-  "notes_zh_TW": "【更新】\n• 升級底層元件，提升穩定性",
-  "publishedAt": "2026-09-09T17:13:11+08:00",
+  "notes": "【新功能】\n• 漫画详情支持向漫画源提交点赞（需该源提供点赞能力）\n• 排行榜支持翻页浏览\n\n【修复】\n• 修复网页登录成功后可能仍未登录的问题\n• 修复应用启动失败后无法重试的问题\n• 修复安装漫画源时异常文件名可能导致的问题\n• 修复漫画源脚本运行过程中可能闪退的问题\n\n【优化】\n• 优化漫画图片处理，降低异常占用\n• 补充部分界面文案的翻译",
+  "notes_en_US": "【New】\n• Comic details can submit likes to the source (when the source supports likes)\n• Rankings support page-by-page browsing\n\n【Fixes】\n• Fixed web login succeeding but still appearing logged out\n• Fixed being unable to retry after the app failed to start\n• Fixed issues caused by unusual filenames when installing comic sources\n• Fixed possible crashes while comic-source scripts were running\n\n【Improvements】\n• Improved comic image handling to reduce abnormal resource use\n• Added translations for more interface text",
+  "notes_ja_JP": "【新機能】\n• 作品詳細から漫画ソースへいいねを送信できます（ソースが対応している場合）\n• ランキングをページ送りで閲覧できます\n\n【修正】\n• Web ログイン成功後も未ログインのままになることがある問題を修正しました\n• アプリ起動失敗後に再試行できない問題を修正しました\n• ソース導入時の異常なファイル名が原因で発生する問題を修正しました\n• 漫画ソースのスクリプト実行中に強制終了することがある問題を修正しました\n\n【改善】\n• 漫画画像の処理を改善し、異常なリソース消費を抑えます\n• 一部の画面文言の翻訳を追加しました",
+  "notes_ko_KR": "【새 기능】\n• 만화 상세에서 소스에 좋아요를 제출할 수 있습니다(해당 소스가 좋아요를 지원하는 경우)\n• 랭킹을 페이지 단위로 볼 수 있습니다\n\n【수정】\n• 웹 로그인 성공 후에도 로그인되지 않은 상태로 남을 수 있는 문제를 수정했습니다\n• 앱 시작 실패 후 다시 시도할 수 없던 문제를 수정했습니다\n• 만화 소스 설치 시 비정상적인 파일 이름으로 발생할 수 있는 문제를 수정했습니다\n• 만화 소스 스크립트 실행 중 강제 종료될 수 있는 문제를 수정했습니다\n\n【개선】\n• 만화 이미지 처리를 개선해 비정상적인 점유를 줄였습니다\n• 일부 화면 문구 번역을 추가했습니다",
+  "notes_ru_RU": "【Новое】\n• В карточке тайтла можно отправить лайк на источник (если источник это поддерживает)\n• Рейтинги можно листать по страницам\n\n【Исправления】\n• Исправлена ситуация, когда вход через веб-страницу проходил успешно, но аккаунт оставался неавторизованным\n• Исправлена невозможность повторить запуск после сбоя старта приложения\n• Исправлены сбои при установке источников из‑за необычных имён файлов\n• Исправлены возможные вылеты во время работы скриптов источника\n\n【Улучшения】\n• Улучшена обработка изображений, снижено аномальное потребление ресурсов\n• Добавлены переводы части интерфейсных текстов",
+  "notes_zh_TW": "【新功能】\n• 漫畫詳情支援向漫畫源提交點讚（需該源提供點讚能力）\n• 排行榜支援翻頁瀏覽\n\n【修復】\n• 修復網頁登入成功後可能仍未登入的問題\n• 修復應用啟動失敗後無法重試的問題\n• 修復安裝漫畫源時異常檔名可能導致的問題\n• 修復漫畫源腳本執行過程中可能閃退的問題\n\n【優化】\n• 優化漫畫圖片處理，降低異常佔用\n• 補充部分介面文案的翻譯",
+  "publishedAt": "2026-09-13T13:25:02+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.16.2-arm64-v8a-standard-withXr-release.apk",
-      "size": 16232755,
-      "sha256": "d59f895766ebe73c5800f3d6829defd951cfa76df8fc50263eadfb4bff30d6e9"
+      "file": "apks/VComic_v2.17.0-arm64-v8a-standard-withXr-release.apk",
+      "size": 16255748,
+      "sha256": "c0a2477439dad3e3a77b00bf3074a2f6c6ff049dc8a0fbed14a9c6116f89d238"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.16.2-x86_64-standard-withXr-release.apk",
-      "size": 16862446,
-      "sha256": "7f60f5f892a8336d153794c5a25de95aa235a9dbf51147929010c660c1f0705e"
+      "file": "apks/VComic_v2.17.0-x86_64-standard-withXr-release.apk",
+      "size": 16886743,
+      "sha256": "105ceeb228f0376e6ed61d5f6a2510bbfb3263793463b705e496aba59e692b4f"
     }
   }
 }
