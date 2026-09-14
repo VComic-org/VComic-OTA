@@ -1,24 +1,24 @@
 {
-  "version": "2.17.0",
-  "versionCode": 85,
+  "version": "2.18.0",
+  "versionCode": 86,
   "channel": "standard",
-  "notes": "【新功能】\n• 漫画详情支持向漫画源提交点赞（需该源提供点赞能力）\n• 排行榜支持翻页浏览\n\n【修复】\n• 修复网页登录成功后可能仍未登录的问题\n• 修复应用启动失败后无法重试的问题\n• 修复安装漫画源时异常文件名可能导致的问题\n• 修复漫画源脚本运行过程中可能闪退的问题\n\n【优化】\n• 优化漫画图片处理，降低异常占用\n• 补充部分界面文案的翻译",
-  "notes_en_US": "【New】\n• Comic details can submit likes to the source (when the source supports likes)\n• Rankings support page-by-page browsing\n\n【Fixes】\n• Fixed web login succeeding but still appearing logged out\n• Fixed being unable to retry after the app failed to start\n• Fixed issues caused by unusual filenames when installing comic sources\n• Fixed possible crashes while comic-source scripts were running\n\n【Improvements】\n• Improved comic image handling to reduce abnormal resource use\n• Added translations for more interface text",
-  "notes_ja_JP": "【新機能】\n• 作品詳細から漫画ソースへいいねを送信できます（ソースが対応している場合）\n• ランキングをページ送りで閲覧できます\n\n【修正】\n• Web ログイン成功後も未ログインのままになることがある問題を修正しました\n• アプリ起動失敗後に再試行できない問題を修正しました\n• ソース導入時の異常なファイル名が原因で発生する問題を修正しました\n• 漫画ソースのスクリプト実行中に強制終了することがある問題を修正しました\n\n【改善】\n• 漫画画像の処理を改善し、異常なリソース消費を抑えます\n• 一部の画面文言の翻訳を追加しました",
-  "notes_ko_KR": "【새 기능】\n• 만화 상세에서 소스에 좋아요를 제출할 수 있습니다(해당 소스가 좋아요를 지원하는 경우)\n• 랭킹을 페이지 단위로 볼 수 있습니다\n\n【수정】\n• 웹 로그인 성공 후에도 로그인되지 않은 상태로 남을 수 있는 문제를 수정했습니다\n• 앱 시작 실패 후 다시 시도할 수 없던 문제를 수정했습니다\n• 만화 소스 설치 시 비정상적인 파일 이름으로 발생할 수 있는 문제를 수정했습니다\n• 만화 소스 스크립트 실행 중 강제 종료될 수 있는 문제를 수정했습니다\n\n【개선】\n• 만화 이미지 처리를 개선해 비정상적인 점유를 줄였습니다\n• 일부 화면 문구 번역을 추가했습니다",
-  "notes_ru_RU": "【Новое】\n• В карточке тайтла можно отправить лайк на источник (если источник это поддерживает)\n• Рейтинги можно листать по страницам\n\n【Исправления】\n• Исправлена ситуация, когда вход через веб-страницу проходил успешно, но аккаунт оставался неавторизованным\n• Исправлена невозможность повторить запуск после сбоя старта приложения\n• Исправлены сбои при установке источников из‑за необычных имён файлов\n• Исправлены возможные вылеты во время работы скриптов источника\n\n【Улучшения】\n• Улучшена обработка изображений, снижено аномальное потребление ресурсов\n• Добавлены переводы части интерфейсных текстов",
-  "notes_zh_TW": "【新功能】\n• 漫畫詳情支援向漫畫源提交點讚（需該源提供點讚能力）\n• 排行榜支援翻頁瀏覽\n\n【修復】\n• 修復網頁登入成功後可能仍未登入的問題\n• 修復應用啟動失敗後無法重試的問題\n• 修復安裝漫畫源時異常檔名可能導致的問題\n• 修復漫畫源腳本執行過程中可能閃退的問題\n\n【優化】\n• 優化漫畫圖片處理，降低異常佔用\n• 補充部分介面文案的翻譯",
-  "publishedAt": "2026-09-13T13:25:02+08:00",
+  "notes": "【新功能】\n• 导出、导入应用数据时，可以自行勾选要包含或还原的内容\n• 漫画源、已下载内容、阅读历史、收藏、图片收藏和追更会与现有数据合并，相同项会跳过，不再整份覆盖",
+  "notes_en_US": "【New】\n• When exporting or importing app data, you can choose which items to include or restore\n• Comic sources, downloads, reading history, favorites, image favorites, and follows are merged with existing data; matching items are skipped instead of overwriting everything",
+  "notes_ja_JP": "【新機能】\n• アプリデータの書き出し・読み込み時に、含める／復元する項目を自分で選べます\n• 漫画ソース、ダウンロード済みコンテンツ、閲覧履歴、お気に入り、画像お気に入り、更新の追従は既存データと統合され、同じ項目はスキップされ、丸ごと上書きされません",
+  "notes_ko_KR": "【새 기능】\n• 앱 데이터를 내보내거나 가져올 때 포함할 항목과 복원할 항목을 직접 선택할 수 있습니다\n• 만화 소스, 다운로드한 콘텐츠, 열람 기록, 즐겨찾기, 이미지 즐겨찾기, 업데이트 팔로우는 기존 데이터와 병합되며, 같은 항목은 건너뛰고 전체를 덮어쓰지 않습니다",
+  "notes_ru_RU": "【Новое】\n• При экспорте и импорте данных приложения можно выбрать, что включать или восстанавливать\n• Источники, загрузки, история чтения, избранное, избранные изображения и подписки на обновления объединяются с уже имеющимися данными: совпадения пропускаются, полная перезапись больше не выполняется",
+  "notes_zh_TW": "【新功能】\n• 匯出、匯入應用資料時，可以自行勾選要包含或還原的內容\n• 漫畫源、已下載內容、閱讀歷史、收藏、圖片收藏和追更會與現有資料合併，相同項會跳過，不再整份覆蓋",
+  "publishedAt": "2026-09-14T23:37:40+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.17.0-arm64-v8a-standard-release.apk",
-      "size": 6524862,
-      "sha256": "4bbcdbd7a6d7aaeb13931222739976c99935dcac0328462ee6eba2731a6d845f"
+      "file": "apks/VComic_v2.18.0-arm64-v8a-standard-release.apk",
+      "size": 6541710,
+      "sha256": "6bcbaec7feb5354e3c4a2626dbcfd81072d14223f8eb6131a1614c50e105ab9c"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.17.0-x86_64-standard-release.apk",
-      "size": 6615200,
-      "sha256": "75ee194b38def4f546c90b25414dae66860c4623be821b20f07d11dc090da8f5"
+      "file": "apks/VComic_v2.18.0-x86_64-standard-release.apk",
+      "size": 6632048,
+      "sha256": "b339b862e8d15290a62013bfc54d4666d6b49787bae19738fb7b1e9c1b5648b8"
     }
   }
 }
