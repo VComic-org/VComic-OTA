@@ -1,24 +1,24 @@
 {
-  "version": "2.18.0",
-  "versionCode": 86,
+  "version": "2.18.1",
+  "versionCode": 87,
   "channel": "standard",
-  "notes": "【新功能】\n• 导出、导入应用数据时，可以自行勾选要包含或还原的内容\n• 漫画源、已下载内容、阅读历史、收藏、图片收藏和追更会与现有数据合并，相同项会跳过，不再整份覆盖",
-  "notes_en_US": "【New】\n• When exporting or importing app data, you can choose which items to include or restore\n• Comic sources, downloads, reading history, favorites, image favorites, and follows are merged with existing data; matching items are skipped instead of overwriting everything",
-  "notes_ja_JP": "【新機能】\n• アプリデータの書き出し・読み込み時に、含める／復元する項目を自分で選べます\n• 漫画ソース、ダウンロード済みコンテンツ、閲覧履歴、お気に入り、画像お気に入り、更新の追従は既存データと統合され、同じ項目はスキップされ、丸ごと上書きされません",
-  "notes_ko_KR": "【새 기능】\n• 앱 데이터를 내보내거나 가져올 때 포함할 항목과 복원할 항목을 직접 선택할 수 있습니다\n• 만화 소스, 다운로드한 콘텐츠, 열람 기록, 즐겨찾기, 이미지 즐겨찾기, 업데이트 팔로우는 기존 데이터와 병합되며, 같은 항목은 건너뛰고 전체를 덮어쓰지 않습니다",
-  "notes_ru_RU": "【Новое】\n• При экспорте и импорте данных приложения можно выбрать, что включать или восстанавливать\n• Источники, загрузки, история чтения, избранное, избранные изображения и подписки на обновления объединяются с уже имеющимися данными: совпадения пропускаются, полная перезапись больше не выполняется",
-  "notes_zh_TW": "【新功能】\n• 匯出、匯入應用資料時，可以自行勾選要包含或還原的內容\n• 漫畫源、已下載內容、閱讀歷史、收藏、圖片收藏和追更會與現有資料合併，相同項會跳過，不再整份覆蓋",
-  "publishedAt": "2026-09-14T23:37:40+08:00",
+  "notes": "【修复】\n• 修复首页「历史」「本地」「图片收藏」「追更」数量在内容较多时显示不正确的问题",
+  "notes_en_US": "【Fixes】\n• Fixed incorrect counts on the home History, Local, Image Favorites, and Follow Updates sections when there are many items",
+  "notes_ja_JP": "【修正】\n• ホームの「履歴」「ローカル」「画像お気に入り」「更新を追従」で、件数が多いときに数が正しく表示されない問題を修正しました",
+  "notes_ko_KR": "【수정】\n• 홈의 「기록」「로컬」「이미지 즐겨찾기」「업데이트 팔로우」에서 항목이 많을 때 개수가 잘못 표시되던 문제를 수정했습니다",
+  "notes_ru_RU": "【Исправления】\n• Исправлено неверное отображение количества на главной в разделах «История», «Локальные», «Избранные изображения» и «Следить за обновлениями», когда записей слишком много",
+  "notes_zh_TW": "【修復】\n• 修復首頁「歷史」「本機」「圖片收藏」「追更」數量在內容較多時顯示不正確的問題",
+  "publishedAt": "2026-09-18T16:49:08+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.18.0-arm64-v8a-standard-withXr-release.apk",
-      "size": 16256212,
-      "sha256": "ca640830f97659011ae1ba43535cf2af29b6ced751550c849a83d770c283e1e1"
+      "file": "apks/VComic_v2.18.1-arm64-v8a-standard-withXr-release.apk",
+      "size": 16272596,
+      "sha256": "ac1ab7d105f8f5c33d049207a14dc345c3ca76bb337dec95bd85a328304e5187"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.18.0-x86_64-standard-withXr-release.apk",
-      "size": 16887207,
-      "sha256": "b50a20449c7f648348928afdbd08339c7f7d934eafc245c70e4b6871e1dfc825"
+      "file": "apks/VComic_v2.18.1-x86_64-standard-withXr-release.apk",
+      "size": 16903591,
+      "sha256": "48183fea5449f0553da349cb589fc575ab0a86c0949dc99d47351e69e1447129"
     }
   }
 }
