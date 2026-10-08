@@ -1,24 +1,24 @@
 {
-  "version": "2.18.1",
-  "versionCode": 87,
+  "version": "2.19.0",
+  "versionCode": 88,
   "channel": "standard",
-  "notes": "【修复】\n• 修复首页「历史」「本地」「图片收藏」「追更」数量在内容较多时显示不正确的问题",
-  "notes_en_US": "【Fixes】\n• Fixed incorrect counts on the home History, Local, Image Favorites, and Follow Updates sections when there are many items",
-  "notes_ja_JP": "【修正】\n• ホームの「履歴」「ローカル」「画像お気に入り」「更新を追従」で、件数が多いときに数が正しく表示されない問題を修正しました",
-  "notes_ko_KR": "【수정】\n• 홈의 「기록」「로컬」「이미지 즐겨찾기」「업데이트 팔로우」에서 항목이 많을 때 개수가 잘못 표시되던 문제를 수정했습니다",
-  "notes_ru_RU": "【Исправления】\n• Исправлено неверное отображение количества на главной в разделах «История», «Локальные», «Избранные изображения» и «Следить за обновлениями», когда записей слишком много",
-  "notes_zh_TW": "【修復】\n• 修復首頁「歷史」「本機」「圖片收藏」「追更」數量在內容較多時顯示不正確的問題",
-  "publishedAt": "2026-09-18T16:49:08+08:00",
+  "notes": "【优化】\n• 大幅加快部分漫画源的列表加载速度\n• 优化封面与阅读页的内存缓存策略",
+  "notes_en_US": "【Improvements】\n• Greatly faster comic list loading for some sources\n• Improved memory caching for covers and reader pages",
+  "notes_ja_JP": "【改善】\n• 一部の漫画ソースでリスト読み込みを大幅に高速化\n• 表紙と閲覧ページのメモリキャッシュ方針を改善",
+  "notes_ko_KR": "【개선】\n• 일부 만화 소스의 목록 불러오기 속도를 크게 향상\n• 표지와 열람 페이지의 메모리 캐시 전략을 개선",
+  "notes_ru_RU": "【Улучшения】\n• Существенно ускорена загрузка списков у части источников\n• Улучшена стратегия кэширования обложек и страниц чтения в памяти",
+  "notes_zh_TW": "【優化】\n• 大幅加快部分漫畫源的列表載入速度\n• 優化封面與閱讀頁的記憶體快取策略",
+  "publishedAt": "2026-10-08T18:07:43+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.18.1-arm64-v8a-standard-withXr-release.apk",
-      "size": 16272596,
-      "sha256": "ac1ab7d105f8f5c33d049207a14dc345c3ca76bb337dec95bd85a328304e5187"
+      "file": "apks/VComic_v2.19.0-arm64-v8a-standard-withXr-release.apk",
+      "size": 16280236,
+      "sha256": "02c0abf586969415f8112d75b8bc890344acc0da09e797aa59abff082be5749a"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.18.1-x86_64-standard-withXr-release.apk",
-      "size": 16903591,
-      "sha256": "48183fea5449f0553da349cb589fc575ab0a86c0949dc99d47351e69e1447129"
+      "file": "apks/VComic_v2.19.0-x86_64-standard-withXr-release.apk",
+      "size": 16911999,
+      "sha256": "a05db325cdc9c9054f75572456a0283f9f4432350a21ba3350b42e71ab41eaf3"
     }
   }
 }
