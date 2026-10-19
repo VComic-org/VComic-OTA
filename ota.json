@@ -1,24 +1,24 @@
 {
-  "version": "2.19.0",
-  "versionCode": 88,
+  "version": "2.19.1",
+  "versionCode": 89,
   "channel": "standard",
-  "notes": "【优化】\n• 大幅加快部分漫画源的列表加载速度\n• 优化封面与阅读页的内存缓存策略",
-  "notes_en_US": "【Improvements】\n• Greatly faster comic list loading for some sources\n• Improved memory caching for covers and reader pages",
-  "notes_ja_JP": "【改善】\n• 一部の漫画ソースでリスト読み込みを大幅に高速化\n• 表紙と閲覧ページのメモリキャッシュ方針を改善",
-  "notes_ko_KR": "【개선】\n• 일부 만화 소스의 목록 불러오기 속도를 크게 향상\n• 표지와 열람 페이지의 메모리 캐시 전략을 개선",
-  "notes_ru_RU": "【Улучшения】\n• Существенно ускорена загрузка списков у части источников\n• Улучшена стратегия кэширования обложек и страниц чтения в памяти",
-  "notes_zh_TW": "【優化】\n• 大幅加快部分漫畫源的列表載入速度\n• 優化封面與閱讀頁的記憶體快取策略",
-  "publishedAt": "2026-10-08T18:07:43+08:00",
+  "notes": "【优化】\n• 大幅提升漫画列表封面和详情页预览图加载速度",
+  "notes_en_US": "【Improvements】\n• Greatly improved loading speed for comic list covers and detail-page previews",
+  "notes_ja_JP": "【改善】\n• 漫画リストの表紙と詳細ページのプレビュー画像の読み込み速度を大幅に向上",
+  "notes_ko_KR": "【개선】\n• 만화 목록 표지와 상세 페이지 미리보기 이미지 불러오기 속도를 크게 향상",
+  "notes_ru_RU": "【Улучшения】\n• Существенно ускорена загрузка обложек в списках и превью на странице подробностей",
+  "notes_zh_TW": "【優化】\n• 大幅提升漫畫列表封面和詳情頁預覽圖載入速度",
+  "publishedAt": "2026-10-19T18:11:23+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.19.0-arm64-v8a-standard-release.apk",
-      "size": 6549350,
-      "sha256": "60a41ab7c721c12311dc942e7134edb6b45f5dd4e1b1341514de2cf37371a00a"
+      "file": "apks/VComic_v2.19.1-arm64-v8a-standard-release.apk",
+      "size": 6549346,
+      "sha256": "14d565b97c50291ba31dc3c40150c7f8da9ecbdd6e5e6de8d608ed576aae410f"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.19.0-x86_64-standard-release.apk",
-      "size": 6640456,
-      "sha256": "825f36eff324b1993db9e58b2454172972c81f7465c0f94c8425220d8f6143ba"
+      "file": "apks/VComic_v2.19.1-x86_64-standard-release.apk",
+      "size": 6640452,
+      "sha256": "5967eb94468eeb05f5f9a08adff5bc37bb732d8bc4954c24cff5bf56294a1ebb"
     }
   }
 }
