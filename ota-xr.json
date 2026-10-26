@@ -1,24 +1,24 @@
 {
-  "version": "2.19.3",
-  "versionCode": 91,
+  "version": "2.19.4",
+  "versionCode": 92,
   "channel": "standard",
-  "notes": "【优化】\n• 翻页时更快释放已经离开的页面，阅读更省内存\n• 连续滚动阅读更加顺畅\n\n【修复】\n• 修复快速翻页时页面可能重复加载、出图变慢的问题",
-  "notes_en_US": "【Improvements】\n• Pages you leave are released sooner while turning, so reading uses less memory\n• Continuous scrolling feels smoother\n\n【Fixes】\n• Fixed pages sometimes loading twice and appearing slowly when turning quickly",
-  "notes_ja_JP": "【改善】\n• ページをめくったあと、離れたページをより早く解放し、メモリの使用を抑えます\n• 連続スクロールでの閲覧がより滑らかになりました\n\n【修正】\n• 速くページをめくると同じページが重複して読み込まれ、表示が遅くなる問題を修正しました",
-  "notes_ko_KR": "【개선】\n• 페이지를 넘길 때 떠난 페이지를 더 빨리 해제하여 메모리를 덜 씁니다\n• 연속 스크롤로 읽는 것이 더 부드러워졌습니다\n\n【수정】\n• 빠르게 넘길 때 페이지가 중복으로 불러와져 그림이 늦게 나오던 문제를 고쳤습니다",
-  "notes_ru_RU": "【Улучшения】\n• При перелистывании ушедшие страницы освобождаются быстрее, чтение занимает меньше памяти\n• Непрерывная прокрутка стала плавнее\n\n【Исправления】\n• Исправлена повторная загрузка страницы и медленное появление изображения при быстром перелистывании",
-  "notes_zh_TW": "【優化】\n• 翻頁時更快釋放已經離開的頁面，閱讀更省記憶體\n• 連續滾動閱讀更加順暢\n\n【修復】\n• 修復快速翻頁時頁面可能重複載入、出圖變慢的問題",
-  "publishedAt": "2026-10-23T10:12:29+08:00",
+  "notes": "【优化】\n• 首页、发现等列表中的封面改为由 GPU 绘制，滑动时更流畅",
+  "notes_en_US": "【Improvements】\n• Covers in Home, Explore, and other lists are now drawn on the GPU, so scrolling feels smoother",
+  "notes_ja_JP": "【改善】\n• ホームや探索などの一覧で、カバーを GPU で描画するようにし、スクロールがより滑らかになりました",
+  "notes_ko_KR": "【개선】\n• 홈, 탐색 등 목록의 표지를 GPU로 그리도록 바꿔 스크롤이 더 부드러워졌습니다",
+  "notes_ru_RU": "【Улучшения】\n• Обложки в списках на главной, в разделе «Обзор» и других теперь рисуются на GPU, поэтому прокрутка стала плавнее",
+  "notes_zh_TW": "【優化】\n• 首頁、發現等列表中的封面改為由 GPU 繪製，滑動時更流暢",
+  "publishedAt": "2026-10-26T11:15:12+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.19.3-arm64-v8a-standard-withXr-release.apk",
+      "file": "apks/VComic_v2.19.4-arm64-v8a-standard-withXr-release.apk",
       "size": 16280236,
-      "sha256": "07c38bf963b88844a82eb8628cb9025e8789e294e78b89de882b2528d536a5e6"
+      "sha256": "8e41bf9e5dcecf72420f586a6b5627a2e074f3e17bd7cb445a314fdd0a5779c0"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.19.3-x86_64-standard-withXr-release.apk",
+      "file": "apks/VComic_v2.19.4-x86_64-standard-withXr-release.apk",
       "size": 16911999,
-      "sha256": "31dfd12b9602dc9f260c4b75c86f0441f60289a4cfc2a835ff6f90cd3e7ca8ca"
+      "sha256": "0b154b8d72901cb68fda1bbd91571c0710faba71427efb3c45ea67cca22c5495"
     }
   }
 }
