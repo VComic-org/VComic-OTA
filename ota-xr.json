@@ -1,24 +1,24 @@
 {
-  "version": "2.19.4",
-  "versionCode": 92,
+  "version": "2.19.5",
+  "versionCode": 93,
   "channel": "standard",
-  "notes": "【优化】\n• 首页、发现等列表中的封面改为由 GPU 绘制，滑动时更流畅",
-  "notes_en_US": "【Improvements】\n• Covers in Home, Explore, and other lists are now drawn on the GPU, so scrolling feels smoother",
-  "notes_ja_JP": "【改善】\n• ホームや探索などの一覧で、カバーを GPU で描画するようにし、スクロールがより滑らかになりました",
-  "notes_ko_KR": "【개선】\n• 홈, 탐색 등 목록의 표지를 GPU로 그리도록 바꿔 스크롤이 더 부드러워졌습니다",
-  "notes_ru_RU": "【Улучшения】\n• Обложки в списках на главной, в разделе «Обзор» и других теперь рисуются на GPU, поэтому прокрутка стала плавнее",
-  "notes_zh_TW": "【優化】\n• 首頁、發現等列表中的封面改為由 GPU 繪製，滑動時更流暢",
-  "publishedAt": "2026-10-26T11:15:12+08:00",
+  "notes": "【修复】\n• 修复了折叠屏分栏阅读时，从漫画详情点标签进入新的列表后，返回会跳过上一次搜索结果、直接回到搜索页的问题",
+  "notes_en_US": "【Fixes】\n• Fixed an issue on foldable split view where going back from a list opened by a tag on the comic page skipped the previous search results and returned to the search page",
+  "notes_ja_JP": "【修正】\n• 折りたたみ画面の分割表示で、作品詳細のタグから新しい一覧を開いたあと戻ると、前の検索結果を飛ばして検索ページに戻ってしまう問題を修正しました",
+  "notes_ko_KR": "【수정】\n• 폴더블 분할 화면에서 만화 상세의 태그를 눌러 새 목록으로 이동한 뒤 뒤로 가면, 이전 검색 결과를 건너뛰고 검색 화면으로 돌아가던 문제를 수정했습니다",
+  "notes_ru_RU": "【Исправления】\n• Исправлена ошибка на складном экране в режиме двух панелей: после перехода по тегу со страницы комикса в новый список кнопка «Назад» пропускала предыдущие результаты поиска и сразу открывала страницу поиска",
+  "notes_zh_TW": "【修復】\n• 修復了摺疊螢幕分欄閱讀時，從漫畫詳情點選標籤進入新的列表後，返回會跳過上一次搜尋結果、直接回到搜尋頁的問題",
+  "publishedAt": "2026-11-05T14:52:13+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.19.4-arm64-v8a-standard-withXr-release.apk",
+      "file": "apks/VComic_v2.19.5-arm64-v8a-standard-withXr-release.apk",
       "size": 16280236,
-      "sha256": "8e41bf9e5dcecf72420f586a6b5627a2e074f3e17bd7cb445a314fdd0a5779c0"
+      "sha256": "5c36b2be2c527765ffd3b85fd19e58d48e03d5b0614089780cc2f39ff71f0804"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.19.4-x86_64-standard-withXr-release.apk",
+      "file": "apks/VComic_v2.19.5-x86_64-standard-withXr-release.apk",
       "size": 16911999,
-      "sha256": "0b154b8d72901cb68fda1bbd91571c0710faba71427efb3c45ea67cca22c5495"
+      "sha256": "6710eea34110bc78ccc2bcf9447bb7acecc475dea87de12b9a557841949b99a0"
     }
   }
 }
