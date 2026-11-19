@@ -1,24 +1,24 @@
 {
-  "version": "2.19.5",
-  "versionCode": 93,
+  "version": "2.19.6",
+  "versionCode": 94,
   "channel": "standard",
-  "notes": "【修复】\n• 修复了折叠屏分栏阅读时，从漫画详情点标签进入新的列表后，返回会跳过上一次搜索结果、直接回到搜索页的问题",
-  "notes_en_US": "【Fixes】\n• Fixed an issue on foldable split view where going back from a list opened by a tag on the comic page skipped the previous search results and returned to the search page",
-  "notes_ja_JP": "【修正】\n• 折りたたみ画面の分割表示で、作品詳細のタグから新しい一覧を開いたあと戻ると、前の検索結果を飛ばして検索ページに戻ってしまう問題を修正しました",
-  "notes_ko_KR": "【수정】\n• 폴더블 분할 화면에서 만화 상세의 태그를 눌러 새 목록으로 이동한 뒤 뒤로 가면, 이전 검색 결과를 건너뛰고 검색 화면으로 돌아가던 문제를 수정했습니다",
-  "notes_ru_RU": "【Исправления】\n• Исправлена ошибка на складном экране в режиме двух панелей: после перехода по тегу со страницы комикса в новый список кнопка «Назад» пропускала предыдущие результаты поиска и сразу открывала страницу поиска",
-  "notes_zh_TW": "【修復】\n• 修復了摺疊螢幕分欄閱讀時，從漫畫詳情點選標籤進入新的列表後，返回會跳過上一次搜尋結果、直接回到搜尋頁的問題",
-  "publishedAt": "2026-11-05T14:52:13+08:00",
+  "notes": "【更新】\n• 日常维护与稳定性改进\n• 移除已泄露的 eMudhra 中间证书",
+  "notes_en_US": "【Updates】\n• Routine maintenance and stability improvements\n• Removed leaked eMudhra intermediate certificates",
+  "notes_ja_JP": "【更新】\n• 日常のメンテナンスと安定性の改善\n• 漏洩した eMudhra 中間証明書を削除しました",
+  "notes_ko_KR": "【업데이트】\n• 일상적인 유지보수와 안정성 개선\n• 유출된 eMudhra 중간 인증서를 제거했습니다",
+  "notes_ru_RU": "【Обновления】\n• Плановое обслуживание и улучшения стабильности\n• Удалены утёкшие промежуточные сертификаты eMudhra",
+  "notes_zh_TW": "【更新】\n• 日常維護與穩定性改進\n• 移除已洩露的 eMudhra 中繼證書",
+  "publishedAt": "2026-11-19T09:54:49+08:00",
   "apks": {
     "arm64-v8a": {
-      "file": "apks/VComic_v2.19.5-arm64-v8a-standard-withXr-release.apk",
-      "size": 16280236,
-      "sha256": "5c36b2be2c527765ffd3b85fd19e58d48e03d5b0614089780cc2f39ff71f0804"
+      "file": "apks/VComic_v2.19.6-arm64-v8a-standard-withXr-release.apk",
+      "size": 16247468,
+      "sha256": "69acd26ededfd6d07a07bb0a25f0293dc1fecca76f8d86fa9ea90eb576caa09a"
     },
     "x86_64": {
-      "file": "apks/VComic_v2.19.5-x86_64-standard-withXr-release.apk",
-      "size": 16911999,
-      "sha256": "6710eea34110bc78ccc2bcf9447bb7acecc475dea87de12b9a557841949b99a0"
+      "file": "apks/VComic_v2.19.6-x86_64-standard-withXr-release.apk",
+      "size": 16879231,
+      "sha256": "a6efc468663d50da7c9cc5c985afc8044a2356274b2f1553ff9895f0f9645a8a"
     }
   }
 }
